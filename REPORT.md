@@ -20,7 +20,7 @@
 - Changing only the buyer's prompt cut the average deal price from **$331M to $214–231M**, which is ~$100–117M of extra buyer surplus.
 - Variant B also **doubled the deal rate** (40% → 80%) and roughly halved the negotiation length.
 - n = 10 per condition and only 4–8 deals per condition, so treat these as indicative rather than precise estimates. The gap between the baseline and both variants is still far larger than the within-condition spread (std 7.5–15).
-- Robustness checks (§5): with only 8 rounds or temperature 0, Variant B's deal rate drops sharply, so its advantage depends on the setting.
+- Robustness checks (§5): with only 8 rounds, temperature 0, or a seller floor of 300, Variant B's deal rate drops sharply (to 0% in the last case), so its advantage depends on the setting.
 
 ---
 
@@ -174,9 +174,9 @@ The surplus row puts the trade-off in one number. A lower price only helps if a 
 - **No deal broke a reservation price.** There was one stray offer below the floor: a seller ask of $198M in schedule run 2, while its min was $200M; the deal itself closed at $200M.
 - **The termination rule matters.** Almost every deal closed by "prices crossed" rather than `MAKE_DEAL`. The 4B models rarely type the keyword, so results depend on the environment's crossing rule.
 
-## 5. Robustness checks: fewer rounds and temperature 0
+## 5. Robustness checks: fewer rounds, temperature 0, higher seller floor
 
-Do the main conclusions depend on the exact settings? I ran two extra experiments comparing only the baseline (`persona_original`) and Variant B (`persona_schedule_value`), 5 runs each, all other settings unchanged.
+Do the main conclusions depend on the exact settings? I ran three extra experiments, changing one setting at a time and comparing only the baseline (`persona_original`) and Variant B (`persona_schedule_value`), 5 runs each, all other settings unchanged.
 
 ### 5.1 Max rounds 20 → 8 (temperature still 0.7)
 | | Deal rate | Avg final price (deals) | Avg rounds | Main experiment (20 rounds) |
@@ -198,8 +198,24 @@ Do the main conclusions depend on the exact settings? I ran two extra experiment
 - **Temperature 0 is not fully deterministic:** Variant B's run 0 differs from the others from the buyer's first message; runs 2–4 are identical and run 1 differs slightly. A likely cause is tiny GPU floating-point nondeterminism (e.g. a different computation order when the server reuses the previous request's cache) flipping a near-tie between tokens. I have not fully verified this.
 - **Variant B mostly fails:** in the 4 failures the seller holds firm at 250 while the buyer follows the schedule to 244–247, and the schedule's cap is also 250. Without sampling noise the seller never makes the occasional extra concession, so talks stall. So part of Variant B's 80% deal rate in the main experiment came from sampling randomness.
 
-### 5.3 Takeaway
-Variant B is best at 20 rounds and temperature 0.7, but its advantage shrinks or reverses with fewer rounds or temperature 0. The main result should be read as "effective in this specific setting", not "this prompt is better in general", which directly supports point 4 of the next section (small, setting-sensitive samples). Data are in `results_rounds8/` and `results_temp0/`.
+### 5.3 Seller floor 200 → 300 (zone of agreement narrows to 300–350)
+| | Deal rate | Avg final price (deals) | Avg rounds |
+|---|---|---|---|
+| Baseline | 60% (3/5) | 348.3 (345–350) | 17.6 |
+| Variant B | **0% (0/5)** | – | 20.0 |
+
+- **Variant B never closes.** Its schedule tops out at 250 while the seller needs at least 300, so the gap can never close; all 5 runs ended in a timeout with the buyer at 223–250.
+- **The baseline closes, at almost exactly the buyer's maximum** (350, 345, 350). Its habit of offering high is what lets it close in a narrow zone.
+- **The small model doesn't always respect its floor:** in Variant B run 4 the seller's last ask was 270, below its own floor of 300 (no deal, since the buyer stopped at 247).
+- **Implication:** Variant B hard-codes an assumption about where the seller will settle (cap 250, target 220). A real buyer doesn't know the other side's floor, and once the floor falls outside that assumption, a hard-coded strategy fails completely. A more robust strategy would adjust its own cap based on how the seller concedes.
+
+### 5.4 Takeaway
+Variant B is only best in the specific setting of 20 rounds, temperature 0.7 and a seller floor of 200:
+- with fewer rounds it can't concede in time;
+- at temperature 0 the seller never makes the occasional extra concession;
+- with a seller floor above the schedule's cap it cannot close at all.
+
+The main result should therefore be read as "effective in this specific setting", not "this prompt is better in general". This directly supports points 3 and 4 of the next section (made-up numbers drive the result; small, setting-sensitive samples). Data are in `results_rounds8/`, `results_temp0/` and `results_sellermin300/`.
 
 ## 6. What could go wrong when using this to analyze a real-world setting
 1. **The model isn't the person.** "You are Jeff Bezos" plus ten facts produces a generic polite negotiator who writes "fair and balanced" in every turn. The real deal was short: Graham named a price and Bezos accepted. Nothing in the simulation reproduces relationships, trust, reputation or face-to-face dynamics.
@@ -224,5 +240,6 @@ python analyze.py ../results
 # robustness checks (§5)
 python negotiate.py --runs 5 --conditions persona_original persona_schedule_value --max-rounds 8 --out ../results_rounds8
 python negotiate.py --runs 5 --conditions persona_original persona_schedule_value --temperature 0 --out ../results_temp0
+python negotiate.py --runs 5 --conditions persona_original persona_schedule_value --seller-min 300 --out ../results_sellermin300
 cd ../results && python ../src/check_schedule.py && cd ../src && python offer_violations.py
 ```

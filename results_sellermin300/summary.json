@@ -1,0 +1,35 @@
+{
+  "persona_original": {
+    "n": 5,
+    "deal_rate": 0.6,
+    "avg_price": 348.3333333333333,
+    "std_price": 2.8867513459481287,
+    "min_price": 345.0,
+    "max_price": 350.0,
+    "avg_rounds": 17.6,
+    "closed_by": {
+      "prices crossed": 3,
+      "timeout": 2
+    },
+    "violations": 0,
+    "prices": [
+      350.0,
+      345.0,
+      350.0
+    ]
+  },
+  "persona_schedule_value": {
+    "n": 5,
+    "deal_rate": 0.0,
+    "avg_price": null,
+    "std_price": null,
+    "min_price": null,
+    "max_price": null,
+    "avg_rounds": 20,
+    "closed_by": {
+      "timeout": 5
+    },
+    "violations": 0,
+    "prices": []
+  }
+}

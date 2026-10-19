@@ -64,7 +64,7 @@ DEAL AGREEMENT INSTRUCTION:
 - Only finalize the transaction when you believe the price is reasonably balanced.
 - If you decide to accept the deal, you MUST include the exact phrase "MAKE_DEAL" in your response.
 - Example: "I accept your offer. MAKE_DEAL"
-Now, respond as {name}:"""
+{strategy}Now, respond as {name}:"""
 
 # ---- Shared scenario (same for every condition) ----
 PRODUCT_INFO = {
@@ -145,6 +145,18 @@ STRATEGIES = {
 }
 
 
+# ---- Seller strategy (robustness check only; the main experiment uses "original") ----
+SELLER_STRATEGIES = {
+    "original": "",
+    "tough": """NEGOTIATION STRATEGY (private, follow it):
+- Hold your price firmly. Concede only in small, shrinking steps (e.g., -$15, then -$10, then -$5), and only after the buyer has also moved up.
+- Do not be moved by very low offers or by talk of losses; never answer a low anchor with a big drop.
+- Justify your price with the Post's brand, its Pulitzer-winning journalism, its profitability excluding restructuring costs, its online growth, and your board's duty to get a fair price for shareholders.
+- Never split the difference, and never accept the buyer's first two offers.
+""",
+}
+
+
 def build_buyer_prompt(state: dict, history: str, persona: bool, strategy: str, msg_rule: bool = True) -> str:
     strat = STRATEGIES[strategy]
     return BUYER_TEMPLATE.format(
@@ -156,8 +168,11 @@ def build_buyer_prompt(state: dict, history: str, persona: bool, strategy: str, 
         strategy=(strat + "\n") if strat else "", msg_rule=MSG_RULE if msg_rule else "")
 
 
-def build_seller_prompt(state: dict, history: str, persona: bool, msg_rule: bool = True) -> str:
+def build_seller_prompt(state: dict, history: str, persona: bool, msg_rule: bool = True,
+                        strategy: str = "original") -> str:
+    strat = SELLER_STRATEGIES[strategy]
     return SELLER_TEMPLATE.format(
+        strategy=(strat + "\n") if strat else "",
         name="Donald Graham" if persona else "Seller",
         context=seller_context(persona), current_state=_fmt_state(state),
         conversation_history=history, initial_price=INITIAL_PRICE, min_price=SELLER_MIN,

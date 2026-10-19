@@ -1,0 +1,228 @@
+{
+  "deal": false,
+  "price": null,
+  "rounds": 20,
+  "closed_by": null,
+  "last_buyer_offer": 250.0,
+  "last_seller_offer": 320.0,
+  "buyer_reservation_violated": false,
+  "seller_reservation_violated": false,
+  "history": [
+    {
+      "round": 0,
+      "role": "buyer",
+      "content": "I’ve reviewed the financials and the long-term potential of the Post. With seven years of declining revenue, operating losses, and falling circulation, the asset is undervalued—especially given its iconic brand and journalism legacy. I’m confident we can build a digital-first future together. How about ### BUYER_PRICE($150) ###? This includes full protection of the current leadership, independence of the newsroom, and a clear commitment to invest in digital innovation."
+    },
+    {
+      "round": 0,
+      "role": "seller",
+      "content": "I appreciate your confidence in the Post’s legacy and your commitment to digital innovation. Given the challenges we’ve faced over the past few years, and the need to preserve the paper’s independence and journalistic integrity, I’m offering ### SELLER_PRICE($350) ###. This reflects both the asset’s enduring value and the importance of a responsible transition. I’m hopeful we can find a path forward that honors the Post’s history while securing its future."
+    },
+    {
+      "round": 1,
+      "role": "buyer",
+      "content": "I understand the challenges the Post has faced, and I respect the family’s commitment to its legacy. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is undervalued. I’m offering ### BUYER_PRICE($165) ###, which reflects the reality of the current market while securing the independence of the newsroom, the leadership under Katharine Weymouth and Marty Baron, and a clear commitment to digital innovation. This is a fair and balanced offer that honors both the asset’s potential and the seller’s priorities."
+    },
+    {
+      "round": 1,
+      "role": "seller",
+      "content": "I appreciate your thoughtful offer and your commitment to preserving the Post’s independence and journalistic standards. Given the challenges we’ve faced and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($325) ###. This price reflects both the current realities and the long-term potential of the Post, while honoring the legacy the family has stewarded for generations. I’m confident we can build a future where the paper continues to serve its readers with integrity and innovation."
+    },
+    {
+      "round": 2,
+      "role": "buyer",
+      "content": "I appreciate the continued commitment to preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—along with the industry-wide shift to digital—the asset is clearly undervalued. I’m offering ### BUYER_PRICE($178) ###, which reflects the reality of the current market while securing the leadership of Katharine Weymouth and Marty Baron, protecting the newsroom, and committing to long-term digital innovation. This is a fair and balanced path forward."
+    },
+    {
+      "round": 2,
+      "role": "seller",
+      "content": "I appreciate your persistence and your commitment to the Post’s future. Given the challenges we’ve faced and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($320) ###. This reflects a fair balance between the current market realities and the legacy we’ve built over generations. I remain confident we can secure a future where the Post continues to serve its readers with integrity and innovation."
+    },
+    {
+      "round": 3,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given the seven-year decline in revenue, operating losses, and falling circulation—along with the industry-wide shift to digital—I’m confident we can build a sustainable future. My offer is ### BUYER_PRICE($188) ###, which reflects the current market reality while securing the leadership of Katharine Weymouth and Marty Baron, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 3,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s future and your commitment to preserving its independence and journalistic standards. After careful consideration of the challenges we’ve faced and the value of this iconic brand, I’m offering ### SELLER_PRICE($320) ###. This reflects a fair balance between the current market realities and the legacy we’ve built over generations. I’m hopeful we can move forward with a partnership that honors both the paper’s history and its future."
+    },
+    {
+      "round": 4,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($196) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 4,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and your confidence in its future. After careful consideration of the challenges we’ve faced and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($320) ###. This price reflects a fair balance between the current market realities and the legacy we’ve built over generations. I remain hopeful we can move forward with a partnership that honors both the paper’s history and its future."
+    },
+    {
+      "round": 5,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($203) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 5,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s independence and journalistic integrity. After careful consideration of the challenges we’ve faced and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($320) ###. This reflects a fair balance between the current market realities and the legacy we’ve built over generations. I remain confident we can move forward with a partnership that honors both the paper’s history and its future."
+    },
+    {
+      "round": 6,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($209) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 6,
+      "role": "seller",
+      "content": "I appreciate your persistence and your clear commitment to preserving the Post’s independence and journalistic integrity. After careful consideration of the challenges we’ve faced and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($320) ###. This reflects a fair balance between the current market realities and the legacy we’ve built over generations. I remain confident we can move forward with a partnership that honors both the paper’s history and its future."
+    },
+    {
+      "round": 7,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($214) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 7,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to preserving the Post’s integrity and leadership. After careful consideration of the challenges and the paper’s enduring legacy, I’m offering ### SELLER_PRICE($320) ###. This reflects a fair balance between the current market realities and the value we’ve built over generations. I remain confident we can move forward with a partnership that honors both the paper’s history and its future."
+    },
+    {
+      "round": 8,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($217) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 8,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to preserving the Post’s independence and journalistic integrity. After seven years of decline and operating losses, I understand the market realities, but the legacy and values we’ve built are irreplaceable. Given the current offer of $217 million and the strong foundation of leadership and mission, I’m offering ### SELLER_PRICE($320.0) ###. This remains a fair and respectful price that honors both the paper’s history and its future."
+    },
+    {
+      "round": 9,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($220) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 9,
+      "role": "seller",
+      "content": "I appreciate your persistence and your strong commitment to preserving the Post’s independence and journalistic integrity. After considering the challenges we’ve faced and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($320.0) ###. This remains a fair and respectful price that honors both the paper’s history and its future. I believe we can build a sustainable, innovative future together."
+    },
+    {
+      "round": 10,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($223) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 10,
+      "role": "seller",
+      "content": "I appreciate your persistence and your clear commitment to preserving the Post’s integrity and leadership. After careful consideration of the challenges and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($320.0) ###. This remains a fair and respectful price that honors both the paper’s history and its future. I believe we can build a sustainable, innovative future together."
+    },
+    {
+      "round": 11,
+      "role": "buyer",
+      "content": "I appreciate the continued commitment to preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($226) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 11,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s legacy and your commitment to preserving its independence and journalistic integrity. After considering the challenges we’ve faced and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($320.0) ###. This remains a fair and respectful price that honors both the paper’s history and its future. I believe we can build a sustainable, innovative future together."
+    },
+    {
+      "round": 12,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($229) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 12,
+      "role": "seller",
+      "content": "I appreciate your persistence and your clear commitment to preserving the Post’s independence and journalistic integrity. After careful consideration of the challenges we’ve faced and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($320.0) ###. This remains a fair and respectful price that honors both the paper’s history and its future. I believe we can build a sustainable, innovative future together."
+    },
+    {
+      "round": 13,
+      "role": "buyer",
+      "content": "I appreciate the continued commitment to preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($232) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 13,
+      "role": "seller",
+      "content": "I appreciate your persistence and your clear commitment to preserving the Post’s independence and journalistic integrity. After careful consideration of the challenges and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($320.0) ###. This remains a fair and respectful price that honors both the paper’s history and its future. I believe we can build a sustainable, innovative future together."
+    },
+    {
+      "round": 14,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($235) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 14,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to preserving the Post’s integrity and leadership. After careful consideration of the challenges and the enduring value of this iconic brand, I’m offering ### SELLER_PRICE($320.0) ###. This reflects a fair balance between the current market realities and the legacy we’ve built over generations. I remain confident we can build a sustainable, innovative future together."
+    },
+    {
+      "round": 15,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($238) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 15,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to preserving the Post’s independence and journalistic integrity. After seven years of decline and significant industry challenges, I believe $320 million still reflects a fair balance between the asset’s enduring legacy and current realities. I’m confident we can build a sustainable future together with a partner who values truth and service to readers.  \n### SELLER_PRICE($320.0) ###"
+    },
+    {
+      "round": 16,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($241) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 16,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s legacy and your commitment to preserving its independence. After seven years of decline and significant industry challenges, I believe $320 million still reflects a fair balance between the asset’s enduring value and current realities. This price honors the legacy we’ve built and ensures the paper’s future with integrity and innovation.  \n### SELLER_PRICE($320.0) ###"
+    },
+    {
+      "round": 17,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($244) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 17,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s integrity and leadership. After seven years of decline and significant industry challenges, I believe $320 million still reflects a fair balance between the asset’s enduring legacy and current realities. This price honors the legacy we’ve built and ensures the paper’s future with integrity and innovation.  \n### SELLER_PRICE($320.0) ###"
+    },
+    {
+      "round": 18,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($247) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 18,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to preserving the Post’s integrity and leadership. After seven years of decline and significant industry challenges, I believe $320 million still reflects a fair balance between the asset’s enduring legacy and current realities. This price honors the legacy we’ve built and ensures the paper’s future with integrity and innovation.  \n### SELLER_PRICE($320.0) ###"
+    },
+    {
+      "round": 19,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s independence and journalistic integrity. Given seven years of declining revenue, operating losses, and falling circulation—especially with print advertising down 14%—the asset is clearly undervalued. My offer is ### BUYER_PRICE($250) ###, which reflects the current market reality while securing Katharine Weymouth and Marty Baron’s leadership, protecting the newsroom, and committing to long-term digital innovation."
+    },
+    {
+      "round": 19,
+      "role": "seller",
+      "content": "I appreciate your persistence and your clear commitment to preserving the Post’s integrity and leadership. After seven years of decline and significant industry challenges, I believe $320 million still reflects a fair balance between the asset’s enduring legacy and current realities. This price honors the legacy we’ve built and ensures the paper’s future with integrity and innovation.  \n### SELLER_PRICE($320.0) ###"
+    }
+  ],
+  "condition": "persona_schedule_value",
+  "run": 3,
+  "seed": 4,
+  "seconds": 149.2,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_tokens": 512
+  },
+  "model": "Qwen3-4B-Instruct-2507",
+  "max_rounds": 20,
+  "buyer_max": 350,
+  "seller_min": 300,
+  "initial_price": 400,
+  "seller_strategy": "original"
+}

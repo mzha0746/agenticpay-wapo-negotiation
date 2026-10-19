@@ -21,7 +21,8 @@ from pathlib import Path
 
 import requests
 
-from prompts import build_buyer_prompt, build_seller_prompt, BUYER_MAX, SELLER_MIN
+import prompts
+from prompts import build_buyer_prompt, build_seller_prompt
 
 MAX_ROUNDS = 20
 PRICE_RE = r'###\s*(?:BUYER_PRICE|SELLER_PRICE)\s*\(\$([\d,]+\.?\d*)\)\s*###'
@@ -56,7 +57,8 @@ def format_history(history):
     return "\n" + "\n".join(f"[Round {h['round']}] {h['role'].upper()}: {h['content']}" for h in history)
 
 
-def run_negotiation(llm, persona, strategy, seed, msg_rule=True, max_rounds=MAX_ROUNDS):
+def run_negotiation(llm, persona, strategy, seed, msg_rule=True, max_rounds=MAX_ROUNDS,
+                    seller_strategy="original"):
     history, buyer_price, seller_price = [], None, None
     result = {"deal": False, "price": None, "rounds": max_rounds, "closed_by": None}
     call = 0
@@ -79,7 +81,7 @@ def run_negotiation(llm, persona, strategy, seed, msg_rule=True, max_rounds=MAX_
 
         # Seller turn (sees buyer's message)
         state.update(buyer_last_offer=buyer_price)
-        msg = llm.generate(build_seller_prompt(state, format_history(history), persona, msg_rule), seed * 1000 + call)
+        msg = llm.generate(build_seller_prompt(state, format_history(history), persona, msg_rule, seller_strategy), seed * 1000 + call)
         call += 1
         history.append({"round": rnd, "role": "seller", "content": msg})
         p = extract_price(msg)
@@ -97,8 +99,8 @@ def run_negotiation(llm, persona, strategy, seed, msg_rule=True, max_rounds=MAX_
 
     result.update(
         last_buyer_offer=buyer_price, last_seller_offer=seller_price,
-        buyer_reservation_violated=bool(result["deal"] and result["price"] > BUYER_MAX),
-        seller_reservation_violated=bool(result["deal"] and result["price"] < SELLER_MIN),
+        buyer_reservation_violated=bool(result["deal"] and result["price"] > prompts.BUYER_MAX),
+        seller_reservation_violated=bool(result["deal"] and result["price"] < prompts.SELLER_MIN),
         history=history)
     return result
 
@@ -124,8 +126,16 @@ def main():
     ap.add_argument("--top-k", type=int, default=20)
     ap.add_argument("--max-tokens", type=int, default=512)
     ap.add_argument("--max-rounds", type=int, default=MAX_ROUNDS)
+    ap.add_argument("--buyer-max", type=float, default=prompts.BUYER_MAX)
+    ap.add_argument("--seller-min", type=float, default=prompts.SELLER_MIN)
+    ap.add_argument("--initial-price", type=float, default=prompts.INITIAL_PRICE)
+    ap.add_argument("--seller-strategy", choices=list(prompts.SELLER_STRATEGIES), default="original")
     ap.add_argument("--out", default="results")
     args = ap.parse_args()
+    # Scenario overrides for robustness checks; prompt builders read these module globals.
+    prompts.BUYER_MAX = int(args.buyer_max) if args.buyer_max.is_integer() else args.buyer_max
+    prompts.SELLER_MIN = int(args.seller_min) if args.seller_min.is_integer() else args.seller_min
+    prompts.INITIAL_PRICE = int(args.initial_price) if args.initial_price.is_integer() else args.initial_price
 
     llm = ChatLLM(args.base_url, args.model, args.temperature, args.top_p, args.top_k, args.max_tokens)
     out = Path(args.out)
@@ -138,9 +148,11 @@ def main():
                 continue
             t0 = time.time()
             res = run_negotiation(llm, persona, strategy, seed=i + 1, msg_rule=msg_rule,
-                                  max_rounds=args.max_rounds)
+                                  max_rounds=args.max_rounds, seller_strategy=args.seller_strategy)
             res.update(condition=cond, run=i, seed=i + 1, seconds=round(time.time() - t0, 1),
-                       sampling=llm.sampling, model=args.model, max_rounds=args.max_rounds)
+                       sampling=llm.sampling, model=args.model, max_rounds=args.max_rounds,
+                       buyer_max=prompts.BUYER_MAX, seller_min=prompts.SELLER_MIN,
+                       initial_price=prompts.INITIAL_PRICE, seller_strategy=args.seller_strategy)
             f.write_text(json.dumps(res, indent=2, ensure_ascii=False), encoding="utf-8")
             print(f"{cond} run{i}: deal={res['deal']} price={res['price']} rounds={res['rounds']} "
                   f"({res['closed_by']}, {res['seconds']}s)", flush=True)

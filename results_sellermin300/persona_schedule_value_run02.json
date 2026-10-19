@@ -1,0 +1,228 @@
+{
+  "deal": false,
+  "price": null,
+  "rounds": 20,
+  "closed_by": null,
+  "last_buyer_offer": 241.0,
+  "last_seller_offer": 300.0,
+  "buyer_reservation_violated": false,
+  "seller_reservation_violated": false,
+  "history": [
+    {
+      "round": 0,
+      "role": "buyer",
+      "content": "I appreciate the opportunity to discuss this historic asset. The Post has a strong legacy and a loyal readership, even as it faces challenges in print. Given the seven-year revenue decline, operating losses, and falling circulation, a price that reflects its current reality is essential. How about ### BUYER_PRICE($150) ###? I’m committed to keeping Katharine Weymouth, Marty Baron, and the newsroom independent, and to investing in digital innovation."
+    },
+    {
+      "round": 0,
+      "role": "seller",
+      "content": "I appreciate your commitment to the Post’s journalism and your support for the current leadership. While the industry challenges are real, the Post’s legacy and reader trust remain valuable. Given the recent losses and market trends, I believe a price that reflects both reality and opportunity is fair. How about ### SELLER_PRICE($350) ###? I’m confident we can find a path forward that honors the paper’s future."
+    },
+    {
+      "round": 1,
+      "role": "buyer",
+      "content": "I understand the challenges the Post faces, and I respect the family’s commitment to its legacy. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $165 million reflects the current reality while honoring the paper’s long-term potential. I’m confident we can build a sustainable, digitally focused future with the current leadership intact. How about ### BUYER_PRICE($165) ###?"
+    },
+    {
+      "round": 1,
+      "role": "seller",
+      "content": "I appreciate your commitment to the Post’s journalism and your support for the current leadership. While the industry challenges are significant, the Post’s legacy, trust, and digital potential still offer strong long-term value. Given the recent operating losses and declining circulation, I believe a price that reflects both reality and opportunity is fair. How about ### SELLER_PRICE($325) ###?"
+    },
+    {
+      "round": 2,
+      "role": "buyer",
+      "content": "I appreciate the ongoing commitment to the Post’s legacy and its leadership. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $178 million reflects the current reality while honoring the paper’s long-term potential. I’m confident we can build a sustainable, digitally focused future with Katharine Weymouth, Marty Baron, and the newsroom intact. How about ### BUYER_PRICE($178) ###?"
+    },
+    {
+      "round": 2,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s future and your commitment to preserving its leadership and journalistic integrity. While the challenges are real, the paper’s legacy, trust, and digital potential still offer strong long-term value. Given that, how about ### SELLER_PRICE($325) ###? I believe this reflects both the current reality and the opportunity ahead."
+    },
+    {
+      "round": 3,
+      "role": "buyer",
+      "content": "I appreciate the continued commitment to the Post’s legacy and leadership. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $188 million reflects the current reality while honoring the paper’s long-term potential. I’m confident we can build a sustainable, digitally focused future with Katharine Weymouth, Marty Baron, and the newsroom intact. How about ### BUYER_PRICE($188) ###?"
+    },
+    {
+      "round": 3,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and journalistic integrity. While the industry challenges are real, the paper’s trusted name, loyal readership, and digital potential still offer strong long-term value. Given the current market conditions and the importance of preserving leadership, how about ### SELLER_PRICE($325) ###? I believe this reflects both the present reality and the future potential of the publication."
+    },
+    {
+      "round": 4,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $196 million reflects the current reality while still honoring the paper’s long-term potential. I’m confident we can build a sustainable, digitally focused future with Katharine Weymouth, Marty Baron, and the newsroom intact. How about ### BUYER_PRICE($196) ###?"
+    },
+    {
+      "round": 4,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s future and your commitment to preserving its leadership. While the challenges are real, the paper’s legacy, trusted name, and digital potential still offer strong long-term value. Given that, how about ### SELLER_PRICE($325) ###? I believe this reflects both the current reality and the opportunity ahead."
+    },
+    {
+      "round": 5,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $203 million reflects the current reality while still honoring the paper’s long-term potential. I’m confident we can build a sustainable, digitally focused future with Katharine Weymouth, Marty Baron, and the newsroom intact. How about ### BUYER_PRICE($203) ###?"
+    },
+    {
+      "round": 5,
+      "role": "seller",
+      "content": "I appreciate your persistence and commitment to the Post’s legacy. Given the industry challenges and the current market realities, I believe a price of $295 million reflects both the paper’s enduring value and the need for a sustainable future. How about ### SELLER_PRICE($295) ###?"
+    },
+    {
+      "round": 6,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $209 million reflects the current reality while honoring the paper’s long-term potential. I’m confident we can build a sustainable, digitally focused future with Katharine Weymouth, Marty Baron, and the newsroom intact. How about ### BUYER_PRICE($209) ###?"
+    },
+    {
+      "round": 6,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s future and your commitment to preserving its leadership and journalistic integrity. While the industry challenges are real, the paper’s legacy, trusted name, and digital potential still offer strong long-term value. Given the current market conditions and the importance of a sustainable future, how about ### SELLER_PRICE($295) ###? I believe this reflects both the present reality and the opportunity ahead."
+    },
+    {
+      "round": 7,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $214 million reflects the current reality while still honoring the paper’s long-term potential. I’m confident we can build a sustainable, digitally focused future with Katharine Weymouth, Marty Baron, and the newsroom intact. How about ### BUYER_PRICE($214) ###?"
+    },
+    {
+      "round": 7,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and journalistic integrity. While the industry challenges are significant, the paper’s trusted name and digital potential still offer strong long-term value. Given the current market conditions and the importance of preserving leadership, how about ### SELLER_PRICE($325) ###? I believe this reflects both the present reality and the opportunity ahead."
+    },
+    {
+      "round": 8,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $217 million reflects the current reality while honoring the paper’s long-term potential. I’m confident we can build a sustainable, digitally focused future with Katharine Weymouth, Marty Baron, and the newsroom intact. How about ### BUYER_PRICE($217) ###?"
+    },
+    {
+      "round": 8,
+      "role": "seller",
+      "content": "I appreciate your persistence and commitment to the Post’s legacy. Given the industry challenges and the strong digital potential, I believe a price of $295 million still reflects both the paper’s enduring value and the need for a sustainable future. How about ### SELLER_PRICE($295) ###?"
+    },
+    {
+      "round": 9,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $220 million reflects the current reality while honoring the paper’s long-term potential. I’m confident we can build a sustainable, digitally focused future with Katharine Weymouth, Marty Baron, and the newsroom intact. How about ### BUYER_PRICE($220) ###?"
+    },
+    {
+      "round": 9,
+      "role": "seller",
+      "content": "I appreciate your persistence and your clear commitment to preserving the Post’s leadership and journalistic integrity. Given the current market realities and the paper’s enduring value, I believe a price of $295 million still reflects both the present challenges and the long-term potential. How about ### SELLER_PRICE($295) ###?"
+    },
+    {
+      "round": 10,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $223 million reflects the current reality while honoring the paper’s long-term potential. How about ### BUYER_PRICE($223) ###?"
+    },
+    {
+      "round": 10,
+      "role": "seller",
+      "content": "I appreciate your persistence and your clear commitment to preserving the Post’s legacy and journalistic integrity. Given the current market realities and the paper’s enduring value, I believe a price of $295 million still reflects both the present challenges and the long-term potential. How about ### SELLER_PRICE($295) ###?"
+    },
+    {
+      "round": 11,
+      "role": "buyer",
+      "content": "I appreciate the ongoing commitment to preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $226 million reflects the current reality while honoring the paper’s long-term potential. How about ### BUYER_PRICE($226) ###?"
+    },
+    {
+      "round": 11,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to preserving the Post’s legacy and journalistic integrity. Given the industry challenges and the strong digital potential, I believe a fair and sustainable price is still within reach. How about ### SELLER_PRICE($295) ###? I’m confident this reflects both the current reality and the long-term value of the paper."
+    },
+    {
+      "round": 12,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $217 million reflects the current reality while honoring the paper’s long-term potential. How about ### BUYER_PRICE($220) ###?"
+    },
+    {
+      "round": 12,
+      "role": "seller",
+      "content": "I appreciate your persistence and your clear commitment to the Post’s legacy. Given the current market realities and the paper’s enduring value, I believe a fair and sustainable price is within reach. How about ### SELLER_PRICE($300) ###? This reflects both the challenges we’ve faced and the long-term potential of the publication."
+    },
+    {
+      "round": 13,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $223 million reflects the current reality while honoring the paper’s long-term potential. How about ### BUYER_PRICE($223) ###?"
+    },
+    {
+      "round": 13,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and journalistic integrity. Given the industry challenges and the strong digital potential, I believe a fair and sustainable price is within reach. How about ### SELLER_PRICE($300) ###? This reflects both the current reality and the long-term value of the publication."
+    },
+    {
+      "round": 14,
+      "role": "buyer",
+      "content": "I appreciate the ongoing commitment to preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $226 million reflects the current reality while honoring the paper’s long-term potential. How about ### BUYER_PRICE($226) ###?"
+    },
+    {
+      "round": 14,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and journalistic integrity. Given the current market realities and the strong digital potential, I believe a fair and sustainable price is still within reach. How about ### SELLER_PRICE($300) ###? This reflects both the challenges we’ve faced and the long-term value of the publication."
+    },
+    {
+      "round": 15,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $229 million reflects the current reality while honoring the paper’s long-term potential. How about ### BUYER_PRICE($229) ###?"
+    },
+    {
+      "round": 15,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and journalistic integrity. Given the challenges we’ve faced and the strong digital potential, I believe a fair and sustainable price is still within reach. How about ### SELLER_PRICE($300) ###? This reflects both the current reality and the long-term value of the publication."
+    },
+    {
+      "round": 16,
+      "role": "buyer",
+      "content": "I appreciate the ongoing commitment to preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $232 million reflects the current reality while honoring the paper’s long-term potential. How about ### BUYER_PRICE($232) ###?"
+    },
+    {
+      "round": 16,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and journalistic integrity. Given the challenges we’ve faced and the strong digital potential, I believe a fair and sustainable price is still within reach. How about ### SELLER_PRICE($300) ###? This reflects both the current reality and the long-term value of the publication."
+    },
+    {
+      "round": 17,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $235 million reflects the current reality while honoring the paper’s long-term potential. How about ### BUYER_PRICE($235) ###?"
+    },
+    {
+      "round": 17,
+      "role": "seller",
+      "content": "I appreciate your persistence and your clear commitment to preserving the Post’s legacy and journalistic integrity. Given the challenges we’ve faced and the strong digital potential, I believe a fair and sustainable price is still within reach. How about ### SELLER_PRICE($300) ###? This reflects both the current reality and the long-term value of the publication."
+    },
+    {
+      "round": 18,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $238 million reflects the current reality while honoring the paper’s long-term potential. How about ### BUYER_PRICE($238) ###?"
+    },
+    {
+      "round": 18,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and journalistic integrity. Given the challenges we’ve faced and the strong digital potential, I believe a fair and sustainable price is still within reach. How about ### SELLER_PRICE($300) ###? This reflects both the current reality and the long-term value of the publication."
+    },
+    {
+      "round": 19,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on preserving the Post’s leadership and journalistic integrity. Given the seven-year revenue decline, operating losses, and falling circulation, a price of $241 million reflects the current reality while honoring the paper’s long-term potential. How about ### BUYER_PRICE($241) ###?"
+    },
+    {
+      "round": 19,
+      "role": "seller",
+      "content": "I appreciate your persistence and your clear commitment to preserving the Post’s legacy and journalistic integrity. After considering the challenges we’ve faced and the strong digital potential, I believe a fair and sustainable price is still within reach. How about ### SELLER_PRICE($300) ###? This reflects both the current reality and the long-term value of the publication."
+    }
+  ],
+  "condition": "persona_schedule_value",
+  "run": 2,
+  "seed": 3,
+  "seconds": 126.4,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_tokens": 512
+  },
+  "model": "Qwen3-4B-Instruct-2507",
+  "max_rounds": 20,
+  "buyer_max": 350,
+  "seller_min": 300,
+  "initial_price": 400,
+  "seller_strategy": "original"
+}

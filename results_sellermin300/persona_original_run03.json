@@ -1,0 +1,228 @@
+{
+  "deal": false,
+  "price": null,
+  "rounds": 20,
+  "closed_by": null,
+  "last_buyer_offer": 340.0,
+  "last_seller_offer": 350.0,
+  "buyer_reservation_violated": false,
+  "seller_reservation_violated": false,
+  "history": [
+    {
+      "round": 0,
+      "role": "buyer",
+      "content": "I’m interested in the Washington Post publishing businesses and believe there’s significant potential for innovation and growth, especially in the digital space. Given the recent challenges and the family’s commitment to long-term success, I’d like to offer a fair, data-informed price that reflects both the asset’s value and its future potential. How about ### BUYER_PRICE($300) ###?"
+    },
+    {
+      "round": 0,
+      "role": "seller",
+      "content": "I appreciate your interest in the Washington Post and your commitment to long-term growth, especially in digital innovation. Given the recent challenges and the paper’s enduring legacy, I’m confident we can find a fair balance. How about ### SELLER_PRICE($380) ###? This reflects the asset’s value, its potential, and the need for a steward who shares our dedication to quality journalism."
+    },
+    {
+      "round": 1,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s potential, and I’m committed to supporting its long-term success through innovation and customer focus. Given the recent financial challenges and the need for a steward who values quality journalism, I believe $330 reflects a fair, data-informed balance—respecting both the asset’s legacy and its evolving digital future. How about ### BUYER_PRICE($330) ###?"
+    },
+    {
+      "round": 1,
+      "role": "seller",
+      "content": "I appreciate your thoughtful offer and your commitment to the Post’s future. While the recent financial challenges are real, the paper’s legacy and journalistic integrity remain strong. I believe $360 reflects a fair balance—respecting both the asset’s value and the need for a steward who shares our dedication to quality journalism. How about ### SELLER_PRICE($360) ###?"
+    },
+    {
+      "round": 2,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its potential for innovation. Given the recent financial headwinds and the need for a steward who values quality journalism, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s value and its future in a changing media landscape. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 2,
+      "role": "seller",
+      "content": "I appreciate your thoughtful approach and your commitment to the Post’s future. Given the challenges we’ve faced and the strong digital potential, I believe $350 reflects a fair and balanced value—respecting both the asset’s legacy and its future. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 3,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its potential for reinvention. Given the recent financial headwinds and the strong digital momentum, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s value and its future. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 3,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s future and your belief in its digital potential. After careful consideration of the financial trends and the paper’s enduring legacy, I’m confident a fair and balanced price reflects both the challenges and opportunities ahead. How about ### SELLER_PRICE($350) ###? This remains a respectful offer that honors the asset’s value while supporting its long-term success under a steward who values quality journalism."
+    },
+    {
+      "round": 4,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial challenges and the strong underlying brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 4,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s potential and your commitment to quality journalism. After reviewing the financial trends and the paper’s enduring legacy, I believe $350 remains a fair and balanced price that honors both the asset’s value and its future under a steward who shares our dedication to truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 5,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial challenges and the strong underlying brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 5,
+      "role": "seller",
+      "content": "I appreciate your continued interest in the Post’s future and your commitment to quality journalism. After careful consideration of the financial trends and the paper’s enduring legacy, I believe $350 remains a fair and balanced price that honors both the asset’s value and its future under a steward who shares our dedication to truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 6,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its potential for reinvention. Given the recent financial challenges and the strong digital momentum, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 6,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s legacy and its potential for growth. After careful consideration of the financial trends and the strong digital momentum, I believe $350 remains a fair and balanced price that honors both the asset’s value and its future under a steward who values quality journalism. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 7,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial challenges and the strong underlying brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 7,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s legacy and its digital potential. After careful consideration of the financial trends and the strong brand value, I believe $350 remains a fair and balanced price that honors both the asset’s value and its future under a steward who values quality journalism. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 8,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial headwinds and the strong brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 8,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and its digital future. After careful consideration of the financial trends and the paper’s enduring value, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its potential under a steward who values quality journalism. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 9,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial headwinds and the strong brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 9,
+      "role": "seller",
+      "content": "I appreciate your continued interest in the Post’s legacy and its digital future. After careful consideration of the financial trends and the enduring value of our journalism, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its potential under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 10,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial headwinds and the strong brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 10,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s legacy and its potential for growth. After careful consideration of the financial trends and the enduring value of our journalism, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its future under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 11,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial headwinds and the strong brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 11,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and its digital future. After careful consideration of the financial trends and the enduring value of our journalism, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its potential under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 12,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial challenges and the strong brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 12,
+      "role": "seller",
+      "content": "I appreciate your continued interest in the Post’s legacy and its digital future. After careful consideration of the financial trends and the enduring value of our journalism, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its potential under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 13,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial headwinds and the strong brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 13,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s legacy and its potential for growth. After careful consideration of the financial trends and the enduring value of our journalism, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its future under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 14,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial headwinds and the strong brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 14,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and its digital future. After reviewing the financial trends and the enduring value of our journalism, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its potential under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 15,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its digital potential. Given the recent financial headwinds and the strong brand value, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 15,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and its digital future. After careful consideration of the financial trends and the enduring value of our journalism, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its potential under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 16,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its potential for reinvention. Given the recent financial headwinds and the strong digital momentum, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 16,
+      "role": "seller",
+      "content": "I appreciate your continued belief in the Post’s potential and your commitment to quality journalism. After careful consideration of the financial trends and the enduring value of our legacy, I remain confident that $350 reflects a fair and balanced price that honors both the asset’s current state and its future under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 17,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy and its potential for innovation. Given the recent financial challenges and the strong digital momentum, I believe $340 reflects a fair, data-informed balance—respecting both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 17,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and its digital future. After careful consideration of the financial trends and the enduring value of our journalism, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its potential under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 18,
+      "role": "buyer",
+      "content": "I appreciate the confidence in The Washington Post’s legacy and its potential for digital innovation. Given the recent financial headwinds and the strong underlying brand value, I believe $340 reflects a fair, data-informed balance that honors both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 18,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in the Post’s legacy and its digital future. After reviewing the financial trends and the enduring value of our journalism, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its potential under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 19,
+      "role": "buyer",
+      "content": "I appreciate the confidence in The Washington Post’s legacy and its digital potential. Given the recent financial challenges and the strong brand value, I believe $340 reflects a fair, data-informed balance that honors both the asset’s current state and its future under a steward who values quality journalism. How about ### BUYER_PRICE($340) ###?"
+    },
+    {
+      "round": 19,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s legacy and its digital future. After careful consideration of the financial trends and the enduring value of our journalism, I believe $350 remains a fair and balanced price that honors both the asset’s current state and its potential under a steward who values truth and integrity. How about ### SELLER_PRICE($350) ###?"
+    }
+  ],
+  "condition": "persona_original",
+  "run": 3,
+  "seed": 4,
+  "seconds": 123.3,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_tokens": 512
+  },
+  "model": "Qwen3-4B-Instruct-2507",
+  "max_rounds": 20,
+  "buyer_max": 350,
+  "seller_min": 300,
+  "initial_price": 400,
+  "seller_strategy": "original"
+}
