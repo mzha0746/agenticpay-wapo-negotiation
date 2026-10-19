@@ -56,13 +56,13 @@ def format_history(history):
     return "\n" + "\n".join(f"[Round {h['round']}] {h['role'].upper()}: {h['content']}" for h in history)
 
 
-def run_negotiation(llm, persona, strategy, seed, msg_rule=True):
+def run_negotiation(llm, persona, strategy, seed, msg_rule=True, max_rounds=MAX_ROUNDS):
     history, buyer_price, seller_price = [], None, None
-    result = {"deal": False, "price": None, "rounds": MAX_ROUNDS, "closed_by": None}
+    result = {"deal": False, "price": None, "rounds": max_rounds, "closed_by": None}
     call = 0
-    for rnd in range(MAX_ROUNDS):
-        state = {"current_round": rnd, "max_rounds": MAX_ROUNDS,
-                 "rounds_remaining": MAX_ROUNDS - rnd,
+    for rnd in range(max_rounds):
+        state = {"current_round": rnd, "max_rounds": max_rounds,
+                 "rounds_remaining": max_rounds - rnd,
                  "buyer_last_offer": buyer_price, "seller_last_offer": seller_price}
 
         # Buyer turn
@@ -123,6 +123,7 @@ def main():
     ap.add_argument("--top-p", type=float, default=0.8)
     ap.add_argument("--top-k", type=int, default=20)
     ap.add_argument("--max-tokens", type=int, default=512)
+    ap.add_argument("--max-rounds", type=int, default=MAX_ROUNDS)
     ap.add_argument("--out", default="results")
     args = ap.parse_args()
 
@@ -136,9 +137,10 @@ def main():
             if f.exists():  # resumable
                 continue
             t0 = time.time()
-            res = run_negotiation(llm, persona, strategy, seed=i + 1, msg_rule=msg_rule)
+            res = run_negotiation(llm, persona, strategy, seed=i + 1, msg_rule=msg_rule,
+                                  max_rounds=args.max_rounds)
             res.update(condition=cond, run=i, seed=i + 1, seconds=round(time.time() - t0, 1),
-                       sampling=llm.sampling, model=args.model)
+                       sampling=llm.sampling, model=args.model, max_rounds=args.max_rounds)
             f.write_text(json.dumps(res, indent=2, ensure_ascii=False), encoding="utf-8")
             print(f"{cond} run{i}: deal={res['deal']} price={res['price']} rounds={res['rounds']} "
                   f"({res['closed_by']}, {res['seconds']}s)", flush=True)

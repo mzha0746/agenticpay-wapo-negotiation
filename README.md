@@ -23,6 +23,8 @@ src/check_schedule.py    诊断：变体 B 是否按让步时间表出价
 src/offer_violations.py  诊断：越过保留价的报价
 src/md2pdf.py            把报告转成 PDF
 results/                 每次运行一个 JSON（完整对话、结果、种子、采样参数）
+results_rounds8/         稳健性检验：最多 8 轮
+results_temp0/           稳健性检验：温度 0
 ```
 
 ## 运行环境

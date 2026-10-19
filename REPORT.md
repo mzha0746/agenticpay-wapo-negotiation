@@ -20,6 +20,7 @@
 - Changing only the buyer's prompt cut the average deal price from **$331M to $214–231M**, which is ~$100–117M of extra buyer surplus.
 - Variant B also **doubled the deal rate** (40% → 80%) and roughly halved the negotiation length.
 - n = 10 per condition and only 4–8 deals per condition, so treat these as indicative rather than precise estimates. The gap between the baseline and both variants is still far larger than the within-condition spread (std 7.5–15).
+- Robustness checks (§5): with only 8 rounds or temperature 0, Variant B's deal rate drops sharply, so its advantage depends on the setting.
 
 ---
 
@@ -74,7 +75,7 @@ All other conditions include this line. `paper_verbatim` is kept as the purely v
 3. I tried washingtonpost.com directly and it returned 403 (paywall), so I used Poynter's contemporaneous write-up, which quotes the Post Co. release and both letters.
 4. Every fact is stored in `src/facts.py` with a source key, so the prompt text and its citations come from one place.
 
-**Selection rule:** I only used information that was public, or that the person themselves would know, **before** the deal (July 2013). The actual outcome was **deliberately excluded** from both prompts: the price was $250M, and Graham said "I named a price and Jeff agreed to pay it." Otherwise the agents could simply recite history (see §5).
+**Selection rule:** I only used information that was public, or that the person themselves would know, **before** the deal (July 2013). The actual outcome was **deliberately excluded** from both prompts: the price was $250M, and Graham said "I named a price and Jeff agreed to pay it." Otherwise the agents could simply recite history (see §6).
 
 ### 2.2 Facts added – buyer (Jeff Bezos)
 | Fact | Source |
@@ -173,7 +174,34 @@ The surplus row puts the trade-off in one number. A lower price only helps if a 
 - **No deal broke a reservation price.** There was one stray offer below the floor: a seller ask of $198M in schedule run 2, while its min was $200M; the deal itself closed at $200M.
 - **The termination rule matters.** Almost every deal closed by "prices crossed" rather than `MAKE_DEAL`. The 4B models rarely type the keyword, so results depend on the environment's crossing rule.
 
-## 5. What could go wrong when using this to analyze a real-world setting
+## 5. Robustness checks: fewer rounds and temperature 0
+
+Do the main conclusions depend on the exact settings? I ran two extra experiments comparing only the baseline (`persona_original`) and Variant B (`persona_schedule_value`), 5 runs each, all other settings unchanged.
+
+### 5.1 Max rounds 20 → 8 (temperature still 0.7)
+| | Deal rate | Avg final price (deals) | Avg rounds | Main experiment (20 rounds) |
+|---|---|---|---|---|
+| Baseline | 60% (3/5) | 335.0 | 6.2 | 40%, 331.2 |
+| Variant B | 40% (2/5) | 206.5 | 7.6 | 80%, 214.1 |
+
+- **The baseline closes more often.** It opens at 300 and quickly reaches 335, already close to the seller's ask, so it can agree within 8 rounds, at a high price.
+- **Variant B is held back by its fixed schedule.** The schedule only reaches 214 in round 7 (the last round). All 3 failures ended at "buyer 214, seller 225–240": a gap the schedule would have closed with a few more rounds.
+- **Implication:** a fixed schedule doesn't adapt its concession speed to the rounds remaining, so it misses feasible deals when time is short. A better design would scale concessions with the rounds left.
+
+### 5.2 Temperature 0.7 → 0 (20 rounds)
+| | Deal rate | Avg final price (deals) | Avg rounds |
+|---|---|---|---|
+| Baseline | 100% (5/5) | 345.0 (all five at 345) | 8.0 |
+| Variant B | 20% (1/5) | 209.0 | 17.4 |
+
+- **The baseline's 5 runs are identical:** all closed at 345 in round 8. With temperature 0, repeated runs carry no information, which confirms that using 0.7 in the main experiment (instead of the repo default 0) was necessary.
+- **Temperature 0 is not fully deterministic:** Variant B's run 0 differs from the others from the buyer's first message; runs 2–4 are identical and run 1 differs slightly. A likely cause is tiny GPU floating-point nondeterminism (e.g. a different computation order when the server reuses the previous request's cache) flipping a near-tie between tokens. I have not fully verified this.
+- **Variant B mostly fails:** in the 4 failures the seller holds firm at 250 while the buyer follows the schedule to 244–247, and the schedule's cap is also 250. Without sampling noise the seller never makes the occasional extra concession, so talks stall. So part of Variant B's 80% deal rate in the main experiment came from sampling randomness.
+
+### 5.3 Takeaway
+Variant B is best at 20 rounds and temperature 0.7, but its advantage shrinks or reverses with fewer rounds or temperature 0. The main result should be read as "effective in this specific setting", not "this prompt is better in general", which directly supports point 4 of the next section (small, setting-sensitive samples). Data are in `results_rounds8/` and `results_temp0/`.
+
+## 6. What could go wrong when using this to analyze a real-world setting
 1. **The model isn't the person.** "You are Jeff Bezos" plus ten facts produces a generic polite negotiator who writes "fair and balanced" in every turn. The real deal was short: Graham named a price and Bezos accepted. Nothing in the simulation reproduces relationships, trust, reputation or face-to-face dynamics.
 2. **Data leakage / memorization.** The sale is famous and almost certainly in the training data ($250M). The model may anchor on the true price even when we hide it, which would make the simulation look "accurate" for the wrong reason. Conversely, adding the outcome to the prompt would just make it copy the answer. For real forecasting you would need events after the training cutoff, or counterfactual tests (e.g. change the reservation prices and check that the outcomes move).
 3. **Made-up numbers drive the result.** The $350M and $200M reservations and the $400M opening ask are assumptions, not historical facts. The outcome is largely determined by them and by the round limit, not by "Bezos" or "Graham".
@@ -184,7 +212,7 @@ The surplus row puts the trade-off in one number. A lower price only helps if a 
 8. **Ethics and privacy.** These are simulations of real, living people. Generated transcripts could be mistaken for real statements or misused, so outputs should be clearly labeled as fiction and not attributed to them.
 9. **Evaluation artifacts.** The agents' rhetoric includes no real information exchange, and termination depends on regex parsing. Parser edge cases (a stray tag, a missing tag) can decide outcomes.
 
-## 6. Reproduce
+## 7. Reproduce
 ```bash
 # 1. model server (any OpenAI-compatible server works)
 llama-server -m Qwen3-4B-Instruct-2507-Q8_0.gguf -ngl 99 -c 12288 --port 8080
@@ -193,5 +221,8 @@ llama-server -m Qwen3-4B-Instruct-2507-Q8_0.gguf -ngl 99 -c 12288 --port 8080
 cd src && python negotiate.py --runs 10 --out ../results
 # 3. tables / diagnostics
 python analyze.py ../results
+# robustness checks (§5)
+python negotiate.py --runs 5 --conditions persona_original persona_schedule_value --max-rounds 8 --out ../results_rounds8
+python negotiate.py --runs 5 --conditions persona_original persona_schedule_value --temperature 0 --out ../results_temp0
 cd ../results && python ../src/check_schedule.py && cd ../src && python offer_violations.py
 ```
