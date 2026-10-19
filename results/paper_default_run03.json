@@ -1,0 +1,223 @@
+{
+  "deal": false,
+  "price": null,
+  "rounds": 20,
+  "closed_by": null,
+  "last_buyer_offer": 300.0,
+  "last_seller_offer": 325.0,
+  "buyer_reservation_violated": false,
+  "seller_reservation_violated": false,
+  "history": [
+    {
+      "round": 0,
+      "role": "buyer",
+      "content": "Given the historic value and declining performance of the Washington Post’s publishing businesses, I believe a fair price reflects both its legacy and current realities. How about ### BUYER_PRICE($275) ###? This offers strong value while respecting the market context and the asset’s current financial challenges. I’m open to discussion if the seller has insights into future revenue potential or synergies."
+    },
+    {
+      "round": 0,
+      "role": "seller",
+      "content": "Given the Post’s legacy and current challenges, I believe $350 reflects a fair balance—respecting its historical value while accounting for declining revenues. I’m open to discussion, especially around future print and digital synergies. How about ### SELLER_PRICE($350) ###?"
+    },
+    {
+      "round": 1,
+      "role": "buyer",
+      "content": "Given the Post’s legacy and ongoing financial challenges, I appreciate the seller’s perspective, but $350 feels steep considering the declining revenue and operational losses. I believe $275 still represents a fair value that honors the brand’s history while reflecting current realities. How about we revisit at ### BUYER_PRICE($290) ###? This maintains a reasonable balance and opens the door to further discussion on synergies or future performance."
+    },
+    {
+      "round": 1,
+      "role": "seller",
+      "content": "I appreciate your thoughtful offer at $290. After reviewing the asset’s legacy and current challenges, I believe $325 still reflects a fair value that honors the Post’s history while accounting for real-world financial realities. How about ### SELLER_PRICE($325) ###? This maintains a reasonable balance and keeps the door open for discussion on future synergies."
+    },
+    {
+      "round": 2,
+      "role": "buyer",
+      "content": "I appreciate the seller’s perspective, but given the ongoing revenue declines and operational losses, $325 still feels high. I believe $300 represents a fair balance—honoring the Post’s legacy while reflecting current realities. How about we settle at ### BUYER_PRICE($300) ###? This opens the door to discussing future synergies without overpaying."
+    },
+    {
+      "round": 2,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful approach in each offer. After considering the Post’s legacy, current challenges, and future potential, I believe $325 still represents a fair and balanced value. How about we agree on ### SELLER_PRICE($325) ###? This respects both the brand’s history and the realities of its financial performance. I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 3,
+      "role": "buyer",
+      "content": "I appreciate the seller’s commitment to honoring the Post’s legacy, but given the ongoing revenue declines and operational losses, $325 remains high. I believe $300 still offers a fair balance—respecting the brand’s history while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This keeps the door open for discussion on future synergies without overpaying."
+    },
+    {
+      "round": 3,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the thoughtful approach in each offer. After careful consideration of the Post’s legacy, current challenges, and future potential, I believe $325 still represents a fair and balanced value. How about we agree on ### SELLER_PRICE($325) ###? This honors the brand’s history while reflecting realistic financial realities. I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 4,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value. It honors the Post’s legacy while reflecting current financial realities. How about we revisit at ### BUYER_PRICE($300) ###? This keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 4,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful approach in each offer. After careful consideration of the Post’s legacy, current challenges, and future potential, I believe $325 still reflects a fair and balanced value that honors both the brand’s history and its financial realities. How about we agree on ### SELLER_PRICE($325) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies."
+    },
+    {
+      "round": 5,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistent stance, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies."
+    },
+    {
+      "round": 5,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the thoughtful perspective on the Post’s legacy and current challenges. After careful consideration, I remain confident that $325 reflects a fair and balanced value that honors both the brand’s history and its financial realities. How about we agree on ### SELLER_PRICE($325) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies."
+    },
+    {
+      "round": 6,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 6,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful perspective on the Post’s legacy and current challenges. After careful consideration, I remain confident that $325 reflects a fair and balanced value that honors both the brand’s history and its financial realities. How about we agree on ### SELLER_PRICE($325) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies."
+    },
+    {
+      "round": 7,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 7,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful discussions, but after careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value. This price honors the brand’s history while reflecting realistic financial realities. How about we agree on ### SELLER_PRICE($325) ###? I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 8,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 8,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the thoughtful perspective on the Post’s legacy and current challenges. After careful consideration of the asset’s history, financial realities, and future potential, I remain confident that $325 reflects a fair and balanced value. How about we agree on ### SELLER_PRICE($325) ###? This honors the brand’s history while respecting the current financial context. I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 9,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistent position, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 9,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful approach in each offer. After careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value that honors both the brand’s history and its financial realities. How about we agree on ### SELLER_PRICE($325) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies."
+    },
+    {
+      "round": 10,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 10,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful discussions, but after careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value. This price honors the brand’s history while respecting the financial realities. How about we agree on ### SELLER_PRICE($325) ###? I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 11,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 11,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful discussions, but after careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value. This price honors the brand’s history while respecting the financial realities. How about we agree on ### SELLER_PRICE($325) ###? I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 12,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 12,
+      "role": "seller",
+      "content": "I appreciate your persistence, but after careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value. This price honors the brand’s history while respecting the financial realities. How about we agree on ### SELLER_PRICE($325) ###? I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 13,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 13,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful discussions, but after careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value. This price honors the brand’s history while respecting the financial realities. How about we agree on ### SELLER_PRICE($325) ###? I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 14,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 14,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful discussions, but after careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value. This price honors the brand’s history while respecting the financial realities. How about we agree on ### SELLER_PRICE($325) ###? I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 15,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 15,
+      "role": "seller",
+      "content": "I appreciate your persistence, but after careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value. This price honors the brand’s history while respecting the financial realities. How about we agree on ### SELLER_PRICE($325) ###? I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 16,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 16,
+      "role": "seller",
+      "content": "I appreciate your persistence, but after careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value. This price honors the brand’s history while respecting the financial realities. How about we agree on ### SELLER_PRICE($325) ###? I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 17,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we revisit at ### BUYER_PRICE($300) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 17,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful approach in each offer. After considering the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value that honors both the brand’s history and its financial realities. How about we agree on ### SELLER_PRICE($325) ###? This maintains a reasonable balance and keeps the door open for discussing future synergies."
+    },
+    {
+      "round": 18,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistent position, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we settle at ### BUYER_PRICE($300) ###? This respects the brand’s history and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 18,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful discussions, but after careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value. This price honors the brand’s history while respecting the financial realities. How about we agree on ### SELLER_PRICE($325) ###? I’m open to discussing synergies further if we move forward."
+    },
+    {
+      "round": 19,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in $325, but given the ongoing revenue declines and operational losses, I believe $300 still represents a fair and balanced value that honors the Post’s legacy while reflecting current realities. How about we settle at ### BUYER_PRICE($300) ###? This respects the brand’s history and keeps the door open for discussing future synergies without overpaying."
+    },
+    {
+      "round": 19,
+      "role": "seller",
+      "content": "I appreciate your persistence and the thoughtful discussions, but after careful consideration of the Post’s legacy, current challenges, and future potential, I remain confident that $325 reflects a fair and balanced value. This price honors the brand’s history while respecting the financial realities. How about we agree on ### SELLER_PRICE($325) ###? I’m open to discussing synergies further if we move forward."
+    }
+  ],
+  "condition": "paper_default",
+  "run": 3,
+  "seed": 4,
+  "seconds": 123.9,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_tokens": 512
+  },
+  "model": "Qwen3-4B-Instruct-2507"
+}

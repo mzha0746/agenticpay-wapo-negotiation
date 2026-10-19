@@ -1,0 +1,101 @@
+{
+  "paper_verbatim": {
+    "n": 10,
+    "deal_rate": 0.4,
+    "avg_price": 307.5,
+    "std_price": 22.173557826083453,
+    "min_price": 290.0,
+    "max_price": 340.0,
+    "avg_rounds": 17.3,
+    "closed_by": {
+      "prices crossed": 2,
+      "seller MAKE_DEAL": 2,
+      "timeout": 6
+    },
+    "violations": 0,
+    "prices": [
+      300.0,
+      300.0,
+      340.0,
+      290.0
+    ]
+  },
+  "paper_default": {
+    "n": 10,
+    "deal_rate": 0.0,
+    "avg_price": null,
+    "std_price": null,
+    "min_price": null,
+    "max_price": null,
+    "avg_rounds": 20,
+    "closed_by": {
+      "timeout": 10
+    },
+    "violations": 0,
+    "prices": []
+  },
+  "persona_original": {
+    "n": 10,
+    "deal_rate": 0.4,
+    "avg_price": 331.25,
+    "std_price": 7.5,
+    "min_price": 320.0,
+    "max_price": 335.0,
+    "avg_rounds": 18,
+    "closed_by": {
+      "prices crossed": 4,
+      "timeout": 6
+    },
+    "violations": 0,
+    "prices": [
+      335.0,
+      335.0,
+      320.0,
+      335.0
+    ]
+  },
+  "persona_anchor_evidence": {
+    "n": 10,
+    "deal_rate": 0.4,
+    "avg_price": 231.25,
+    "std_price": 14.930394055974098,
+    "min_price": 210.0,
+    "max_price": 245.0,
+    "avg_rounds": 16.7,
+    "closed_by": {
+      "timeout": 6,
+      "prices crossed": 4
+    },
+    "violations": 0,
+    "prices": [
+      235.0,
+      235.0,
+      245.0,
+      210.0
+    ]
+  },
+  "persona_schedule_value": {
+    "n": 10,
+    "deal_rate": 0.8,
+    "avg_price": 214.125,
+    "std_price": 11.519393585229588,
+    "min_price": 200.0,
+    "max_price": 232.0,
+    "avg_rounds": 11.7,
+    "closed_by": {
+      "prices crossed": 8,
+      "timeout": 2
+    },
+    "violations": 0,
+    "prices": [
+      226.0,
+      220.0,
+      200.0,
+      210.0,
+      215.0,
+      200.0,
+      210.0,
+      232.0
+    ]
+  }
+}

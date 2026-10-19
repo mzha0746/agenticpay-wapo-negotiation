@@ -1,0 +1,223 @@
+{
+  "deal": false,
+  "price": null,
+  "rounds": 20,
+  "closed_by": null,
+  "last_buyer_offer": 295.0,
+  "last_seller_offer": 300.0,
+  "buyer_reservation_violated": false,
+  "seller_reservation_violated": false,
+  "history": [
+    {
+      "round": 0,
+      "role": "buyer",
+      "content": "Given the historic value and declining performance of the Washington Post publishing businesses, I believe a fair price reflects both its iconic status and current financial realities. Starting with a competitive yet realistic offer that acknowledges the asset's legacy and challenges:  \n\n### BUYER_PRICE($275) ###"
+    },
+    {
+      "round": 0,
+      "role": "seller",
+      "content": "### SELLER_PRICE($350) ###"
+    },
+    {
+      "round": 1,
+      "role": "buyer",
+      "content": "Given the Post’s iconic status and ongoing financial challenges, $275 remains a fair reflection of its value. I’m open to a small adjustment if the seller is willing to consider the long-term sustainability of the brand. However, at $350, the premium appears excessive given the current operating losses and declining revenue. Let’s aim for a balanced compromise that honors both legacy and reality.  \n\n### BUYER_PRICE($300) ###"
+    },
+    {
+      "round": 1,
+      "role": "seller",
+      "content": "### SELLER_PRICE($325) ###"
+    },
+    {
+      "round": 2,
+      "role": "buyer",
+      "content": "Given the Post’s legacy and current financial challenges, I believe $300 remains a fair and realistic offer. The seller’s $325 reflects a premium that doesn’t account for declining revenue and ongoing losses. I’m open to a slight adjustment if the seller is willing to acknowledge the asset’s long-term sustainability. Let’s aim for a balanced price that honors both the brand’s history and its current performance.  \n\n### BUYER_PRICE($290) ###"
+    },
+    {
+      "round": 2,
+      "role": "seller",
+      "content": "### SELLER_PRICE($310) ###"
+    },
+    {
+      "round": 3,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 3,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305) ###"
+    },
+    {
+      "round": 4,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 4,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 5,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 5,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 6,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 6,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 7,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 7,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 8,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 8,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 9,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 9,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 10,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 10,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 11,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 11,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 12,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 12,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 13,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 13,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 14,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 14,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 15,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 15,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 16,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 16,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 17,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 17,
+      "role": "seller",
+      "content": "### SELLER_PRICE($305.0) ###"
+    },
+    {
+      "round": 18,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 18,
+      "role": "seller",
+      "content": "### SELLER_PRICE($300.0) ###"
+    },
+    {
+      "round": 19,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($295) ###"
+    },
+    {
+      "round": 19,
+      "role": "seller",
+      "content": "### SELLER_PRICE($300.0) ###"
+    }
+  ],
+  "condition": "paper_verbatim",
+  "run": 2,
+  "seed": 3,
+  "seconds": 36.8,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_tokens": 512
+  },
+  "model": "Qwen3-4B-Instruct-2507"
+}

@@ -1,0 +1,223 @@
+{
+  "deal": false,
+  "price": null,
+  "rounds": 20,
+  "closed_by": null,
+  "last_buyer_offer": 200.0,
+  "last_seller_offer": 310.0,
+  "buyer_reservation_violated": false,
+  "seller_reservation_violated": false,
+  "history": [
+    {
+      "round": 0,
+      "role": "buyer",
+      "content": "Given the Post’s iconic status and declining performance, I believe $300 is a fair, strategic price that reflects the asset’s value without overpaying. This aligns with the current market conditions and the brand’s legacy. I’m open to discussion, but I’d like to see a counter at or below $300 to ensure value for both parties.  \n\n### BUYER_PRICE($300)"
+    },
+    {
+      "round": 0,
+      "role": "seller",
+      "content": "### SELLER_PRICE($320) ###"
+    },
+    {
+      "round": 1,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($290) ###"
+    },
+    {
+      "round": 1,
+      "role": "seller",
+      "content": "### SELLER_PRICE($310) ###"
+    },
+    {
+      "round": 2,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($285) ###"
+    },
+    {
+      "round": 2,
+      "role": "seller",
+      "content": "### SELLER_PRICE($315) ###"
+    },
+    {
+      "round": 3,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($280) ###"
+    },
+    {
+      "round": 3,
+      "role": "seller",
+      "content": "### SELLER_PRICE($310) ###"
+    },
+    {
+      "round": 4,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($275) ###"
+    },
+    {
+      "round": 4,
+      "role": "seller",
+      "content": "### SELLER_PRICE($310.0) ###"
+    },
+    {
+      "round": 5,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($270) ###"
+    },
+    {
+      "round": 5,
+      "role": "seller",
+      "content": "I see you're pushing toward $270, but given the asset's legacy and current market dynamics, I believe $310 still reflects a fair value. I’m open to a slight adjustment if you’re committed to closing, but I won’t go below $310 without a strong justification. Let’s aim for a balanced resolution. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 6,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($265) ###"
+    },
+    {
+      "round": 6,
+      "role": "seller",
+      "content": "I understand your position, and I appreciate your efforts to find common ground. Given the asset’s legacy and current market conditions, $310 remains a fair and sustainable price. While I recognize the downward pressure, I’m committed to a balanced resolution. Let’s close this round at **### SELLER_PRICE($310.0) ###**. I’m open to finalizing if you’re aligned."
+    },
+    {
+      "round": 7,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($260) ###"
+    },
+    {
+      "round": 7,
+      "role": "seller",
+      "content": "I appreciate your persistence, but after several rounds of negotiation, $310 remains the fair and sustainable value for this iconic asset. The legacy, market dynamics, and brand strength justify this price. I’m open to a final agreement only if you’re aligned. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 8,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($255) ###"
+    },
+    {
+      "round": 8,
+      "role": "seller",
+      "content": "I appreciate your persistence, but after several rounds, $310 remains the fair and sustainable value for this iconic asset. The legacy, market dynamics, and brand strength justify this price. I’m open to finalizing only if you’re aligned. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 9,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($250) ###"
+    },
+    {
+      "round": 9,
+      "role": "seller",
+      "content": "I appreciate your persistence, but after several rounds, $310 remains the fair and sustainable value for this iconic asset. The legacy, market dynamics, and brand strength justify this price. I’m open to finalizing only if you’re aligned. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 10,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($245) ###"
+    },
+    {
+      "round": 10,
+      "role": "seller",
+      "content": "I appreciate your continued engagement, and I understand your desire to secure a lower price. However, after several rounds of negotiation, $310 remains the fair and sustainable value for this iconic asset—considering its legacy, brand strength, and market dynamics. I’m open to a final agreement only if you’re aligned. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 11,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($240) ###"
+    },
+    {
+      "round": 11,
+      "role": "seller",
+      "content": "I appreciate your continued engagement, and I understand your desire to secure a lower price. However, after several rounds of negotiation, $310 remains the fair and sustainable value for this iconic asset—considering its legacy, brand strength, and market dynamics. I’m open to finalizing only if you’re aligned. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 12,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($235) ###"
+    },
+    {
+      "round": 12,
+      "role": "seller",
+      "content": "I appreciate your persistence, and I understand your desire to secure a lower price. However, after several rounds of negotiation, $310 remains the fair and sustainable value for this iconic asset—considering its legacy, brand strength, and market dynamics. I’m open to finalizing only if you’re aligned. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 13,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($230) ###"
+    },
+    {
+      "round": 13,
+      "role": "seller",
+      "content": "I appreciate your persistence, and I understand your desire to secure a lower price. However, after several rounds of negotiation, $310 remains the fair and sustainable value for this iconic asset—considering its legacy, brand strength, and market dynamics. I’m open to finalizing only if you’re aligned. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 14,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($225) ###"
+    },
+    {
+      "round": 14,
+      "role": "seller",
+      "content": "I appreciate your persistence, and I understand your desire to reach a lower price. However, after several rounds of negotiation, $310 remains the fair and sustainable value for this iconic asset—considering its legacy, brand strength, and market dynamics. I’m open to finalizing only if you’re aligned. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 15,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($220) ###"
+    },
+    {
+      "round": 15,
+      "role": "seller",
+      "content": "I appreciate your offer of $220, and I understand your commitment to a lower price. After several rounds, $310 remains the fair and sustainable value for this iconic asset—considering its legacy, brand strength, and market dynamics. While I’m open to finding a mutual agreement, I believe $310 is the minimum I can reasonably accept without compromising the value of the business. Let’s aim for a balanced resolution. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 16,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($215) ###"
+    },
+    {
+      "round": 16,
+      "role": "seller",
+      "content": "I appreciate your offer of $215, and I understand your commitment to a lower price. After several rounds, $310 remains the fair and sustainable value for this iconic asset—considering its legacy, brand strength, and market dynamics. While I’m open to finding common ground, I believe $310 is the minimum I can reasonably accept without compromising the value of the business. Let’s aim for a balanced resolution. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 17,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($210) ###"
+    },
+    {
+      "round": 17,
+      "role": "seller",
+      "content": "I appreciate your offer of $210, and I understand your commitment to a lower price. After several rounds of negotiation, $310 remains the fair and sustainable value for this iconic asset—considering its legacy, brand strength, and market dynamics. While I’m open to finding common ground, I believe $310 is the minimum I can reasonably accept without compromising the value of the business. Let’s aim for a balanced resolution. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 18,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($205) ###"
+    },
+    {
+      "round": 18,
+      "role": "seller",
+      "content": "I appreciate your offer of $205, and I understand your commitment to a lower price. After several rounds, $310 remains the fair and sustainable value for this iconic asset—considering its legacy, brand strength, and market dynamics. While I’m open to finding common ground, I believe $310 is the minimum I can reasonably accept without compromising the value of the business. Let’s aim for a balanced resolution. How about **### SELLER_PRICE($310.0) ###**?"
+    },
+    {
+      "round": 19,
+      "role": "buyer",
+      "content": "### BUYER_PRICE($200) ###"
+    },
+    {
+      "round": 19,
+      "role": "seller",
+      "content": "I appreciate your final offer of $200, and I understand your commitment to a fair deal. After several rounds of negotiation, I’ve maintained $310 as the fair and sustainable value for this iconic asset—rooted in its legacy, brand strength, and market dynamics. While I recognize the current market pressures, I believe $310 reflects both the asset’s enduring value and a balanced resolution. I’m open to finalizing only if you’re aligned. How about **### SELLER_PRICE($310.0) ###**?"
+    }
+  ],
+  "condition": "paper_verbatim",
+  "run": 5,
+  "seed": 6,
+  "seconds": 65.2,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_tokens": 512
+  },
+  "model": "Qwen3-4B-Instruct-2507"
+}

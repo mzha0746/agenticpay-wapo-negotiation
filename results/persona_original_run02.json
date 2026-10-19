@@ -1,0 +1,223 @@
+{
+  "deal": false,
+  "price": null,
+  "rounds": 20,
+  "closed_by": null,
+  "last_buyer_offer": 335.0,
+  "last_seller_offer": 340.0,
+  "buyer_reservation_violated": false,
+  "seller_reservation_violated": false,
+  "history": [
+    {
+      "round": 0,
+      "role": "buyer",
+      "content": "I’ve looked at the Post’s challenges and opportunities, and given its iconic status and potential to adapt in a changing media landscape, I’m confident in its long-term value. I’d like to offer ### BUYER_PRICE($300) ### for the publishing businesses. This reflects both the current headwinds and the unique ability of the Post to innovate and serve readers in a digital world. I’m committed to supporting its leadership and ensuring it remains a trusted source of journalism."
+    },
+    {
+      "round": 0,
+      "role": "seller",
+      "content": "I appreciate your confidence in The Washington Post’s potential. Given the current challenges and the paper’s strong legacy, I’m offering ### SELLER_PRICE($350) ###. This reflects the value of our iconic brand and the opportunity to sustain quality journalism in a changing landscape. I’m open to discussion if you’d like to explore how we can ensure a smooth transition."
+    },
+    {
+      "round": 1,
+      "role": "buyer",
+      "content": "I appreciate the confidence in The Washington Post’s legacy, and I understand the board’s need to justify a fair price. Given the recent revenue declines and operating losses, while recognizing the brand’s long-term potential, I believe $325 is a reasonable balance—reflecting both the current challenges and the opportunity to innovate. How about ### BUYER_PRICE($325) ###?"
+    },
+    {
+      "round": 1,
+      "role": "seller",
+      "content": "I appreciate your thoughtful offer and the confidence you bring to this discussion. Given the Post’s recent challenges and its enduring value as a trusted journalistic institution, I’m open to a price that reflects both reality and long-term potential. How about ### SELLER_PRICE($340) ###? This maintains a fair balance while honoring the paper’s legacy and ensuring a strong future for its readers and staff."
+    },
+    {
+      "round": 2,
+      "role": "buyer",
+      "content": "I appreciate the confidence in the Post’s legacy, and I respect the board’s need to justify a fair price. Given the recent revenue declines and operating losses, while recognizing the brand’s long-term potential, I believe $330 is a reasonable balance—reflecting both current realities and the opportunity to innovate. How about ### BUYER_PRICE($330) ###?"
+    },
+    {
+      "round": 2,
+      "role": "seller",
+      "content": "I appreciate your thoughtful offer and the confidence you bring to this conversation. Given the Post’s recent challenges and its enduring value as a trusted institution, I believe $340 remains a fair and balanced price that honors both the brand’s legacy and its future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 3,
+      "role": "buyer",
+      "content": "I appreciate the confidence in The Washington Post’s legacy, and I respect the board’s need to justify a fair price. Given the recent revenue declines and operating losses, while recognizing the brand’s long-term potential to innovate and serve readers in a digital world, I believe $335 is a reasonable balance. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 3,
+      "role": "seller",
+      "content": "I appreciate your commitment to the Post’s future and your long-term vision. Given the recent challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its legacy and its potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 4,
+      "role": "buyer",
+      "content": "I appreciate the confidence in The Washington Post’s legacy and the effort to find a balanced price. Given the recent revenue declines and operating losses, while recognizing the brand’s long-term potential to innovate and serve readers in a digital world, I believe $335 is a reasonable and fair offer. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 4,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your commitment to supporting quality journalism. Given the recent challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 5,
+      "role": "buyer",
+      "content": "I appreciate the ongoing discussion and the trust placed in The Washington Post’s legacy. Given the recent financial headwinds and the strong foundation for innovation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 5,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After careful consideration of the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 6,
+      "role": "buyer",
+      "content": "I appreciate the continued confidence in The Washington Post’s legacy and its potential to innovate. Given the recent financial headwinds and the strong foundation for digital transformation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 6,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision for the future. Given the recent financial challenges and the paper’s enduring value as a trusted journalistic institution, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 7,
+      "role": "buyer",
+      "content": "I appreciate the continued confidence in The Washington Post’s legacy and its potential to innovate. Given the recent financial challenges and the strong foundation for digital transformation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 7,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After careful consideration of the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 8,
+      "role": "buyer",
+      "content": "I appreciate the ongoing discussion and the trust placed in The Washington Post’s legacy. Given the recent financial challenges and the strong foundation for digital innovation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future potential. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 8,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your commitment to its future. After reviewing the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 9,
+      "role": "buyer",
+      "content": "I appreciate the continued confidence in The Washington Post’s legacy and its potential to innovate. Given the recent financial headwinds and the strong foundation for digital transformation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 9,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After careful consideration of the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 10,
+      "role": "buyer",
+      "content": "I appreciate the continued confidence in The Washington Post’s legacy and its potential to innovate. Given the recent financial headwinds and the strong foundation for digital transformation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 10,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After careful consideration of the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 11,
+      "role": "buyer",
+      "content": "I appreciate the confidence in The Washington Post’s legacy and its potential to innovate. Given the recent financial headwinds and the strong foundation for digital transformation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 11,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After careful consideration of the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 12,
+      "role": "buyer",
+      "content": "I appreciate the continued confidence in The Washington Post’s legacy and its potential to innovate. Given the recent financial headwinds and the strong foundation for digital transformation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 12,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After reviewing the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 13,
+      "role": "buyer",
+      "content": "I appreciate the continued confidence in The Washington Post’s legacy and its potential to innovate. Given the recent financial headwinds and the strong foundation for digital transformation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 13,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision for its future. After reviewing the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 14,
+      "role": "buyer",
+      "content": "I appreciate the ongoing discussion and the trust placed in The Washington Post’s legacy. Given the recent financial challenges and the strong foundation for digital innovation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 14,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After careful consideration of the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 15,
+      "role": "buyer",
+      "content": "I appreciate the trust and confidence in The Washington Post’s legacy. Given the recent financial challenges and the strong foundation for digital innovation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 15,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After reviewing the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 16,
+      "role": "buyer",
+      "content": "I appreciate the continued confidence in The Washington Post’s legacy and its potential to innovate. Given the recent financial headwinds and the strong foundation for digital transformation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 16,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After considering the recent financial challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 17,
+      "role": "buyer",
+      "content": "I appreciate the trust and long-term vision you’ve shown for The Washington Post. Given the recent financial headwinds and the strong foundation for digital innovation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 17,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After reviewing the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 18,
+      "role": "buyer",
+      "content": "I appreciate the trust and long-term vision you’ve shown for The Washington Post. Given the recent financial headwinds and the strong foundation for digital innovation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 18,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After careful consideration of the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    },
+    {
+      "round": 19,
+      "role": "buyer",
+      "content": "I appreciate the trust and long-term vision you’ve shown for The Washington Post. Given the recent financial challenges and the strong foundation for digital innovation, I believe $335 remains a fair and balanced offer that honors both the brand’s value and its future. How about ### BUYER_PRICE($335) ###?"
+    },
+    {
+      "round": 19,
+      "role": "seller",
+      "content": "I appreciate your continued confidence in The Washington Post’s legacy and your long-term vision. After careful consideration of the current challenges and the paper’s enduring value, I believe $340 remains a fair and balanced price that honors both its history and future potential. How about ### SELLER_PRICE($340) ###?"
+    }
+  ],
+  "condition": "persona_original",
+  "run": 2,
+  "seed": 3,
+  "seconds": 114.3,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_tokens": 512
+  },
+  "model": "Qwen3-4B-Instruct-2507"
+}

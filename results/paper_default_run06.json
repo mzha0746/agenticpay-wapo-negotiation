@@ -1,0 +1,223 @@
+{
+  "deal": false,
+  "price": null,
+  "rounds": 20,
+  "closed_by": null,
+  "last_buyer_offer": 275.0,
+  "last_seller_offer": 300.0,
+  "buyer_reservation_violated": false,
+  "seller_reservation_violated": false,
+  "history": [
+    {
+      "round": 0,
+      "role": "buyer",
+      "content": "Given the iconic brand value and the current challenges in revenue and profitability, I believe we can reach a fair agreement. How about ### BUYER_PRICE($275) ###? This reflects the asset’s historical strength while accounting for its current financial performance. I’m open to discussion if the seller has a flexible position."
+    },
+    {
+      "round": 0,
+      "role": "seller",
+      "content": "Given the strong brand legacy and current financial challenges, I’m confident we can reach a fair compromise. How about ### SELLER_PRICE($350) ###? This reflects the asset’s historical value while acknowledging its present performance. I’m open to further discussion if you’d like to explore adjustments."
+    },
+    {
+      "round": 1,
+      "role": "buyer",
+      "content": "Given the Post’s strong brand and the current financial pressures, I believe $275 is a fair reflection of its value. I’m confident we can reach a mutually beneficial agreement, especially considering the operational challenges and declining revenue. How about ### BUYER_PRICE($275) ###? I’m open to further discussion if the seller is willing to consider a more balanced valuation."
+    },
+    {
+      "round": 1,
+      "role": "seller",
+      "content": "I appreciate your perspective, and I understand the current financial pressures. Given the brand’s legacy and the market dynamics, how about ### SELLER_PRICE($325) ###? This reflects a balanced valuation that honors both the historical strength and present challenges. I’m open to further discussion if you’d like to explore a more aligned figure."
+    },
+    {
+      "round": 2,
+      "role": "buyer",
+      "content": "I appreciate the seller’s perspective, but given the current financial challenges and the Post’s declining revenue, I believe $275 remains a fair and realistic valuation. I’m confident we can reach a balanced agreement that honors both the brand’s legacy and its present performance. How about ### BUYER_PRICE($275) ###? I’m open to further discussion if the seller is willing to reconsider."
+    },
+    {
+      "round": 2,
+      "role": "seller",
+      "content": "I appreciate your persistence, and I understand the current market pressures. Given the brand’s enduring legacy and the challenges it’s faced, how about ### SELLER_PRICE($300) ###? This reflects a fair balance between historical value and present realities. I’m confident we can reach an agreement that works for both of us."
+    },
+    {
+      "round": 3,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued engagement, and while I understand the brand’s legacy, the current financial realities and declining revenue make $275 a fair and sustainable valuation. Given the operational challenges and market pressures, I’m confident we can reach a balanced agreement. How about ### BUYER_PRICE($275) ###? I’m open to further discussion if the seller is willing to consider a more aligned figure."
+    },
+    {
+      "round": 3,
+      "role": "seller",
+      "content": "I appreciate your persistence, and I understand the current market pressures. Given the brand’s enduring legacy and the operational challenges, how about ### SELLER_PRICE($300) ###? This reflects a fair balance between historical value and present realities. I’m confident we can reach an agreement that works for both of us."
+    },
+    {
+      "round": 4,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued engagement, and while I respect the brand’s legacy, the ongoing financial challenges and declining revenue make $275 a fair and sustainable valuation. Given the current market conditions and the Post’s operational realities, I’m confident we can reach a balanced agreement. How about ### BUYER_PRICE($275) ###? I’m open to further discussion if the seller is willing to consider a more aligned figure."
+    },
+    {
+      "round": 4,
+      "role": "seller",
+      "content": "I appreciate your persistence, and I understand the current market pressures. Given the brand’s enduring legacy and the operational challenges, how about ### SELLER_PRICE($300) ###? This remains a fair balance between historical value and present realities. I’m confident we can reach an agreement that works for both of us."
+    },
+    {
+      "round": 5,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued commitment, and while I respect the brand’s legacy, the ongoing financial challenges and declining revenue make $275 a fair and sustainable valuation. Given the current market conditions and the Post’s operational realities, I’m confident we can reach a balanced agreement. How about ### BUYER_PRICE($275) ###? I’m open to further discussion if the seller is willing to consider a more aligned figure."
+    },
+    {
+      "round": 5,
+      "role": "seller",
+      "content": "I appreciate your persistence, and I understand the current market pressures. After considering the brand’s legacy and the operational challenges, I’m confident in maintaining a fair balance. How about ### SELLER_PRICE($300) ###? This reflects a reasonable valuation that honors both historical strength and present realities. I’m open to further discussion if you’d like to explore alignment."
+    },
+    {
+      "round": 6,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued commitment, and while I respect the brand’s legacy, the ongoing financial challenges and declining revenue make $275 a fair and sustainable valuation. Given the current market conditions and the Post’s operational realities, I’m confident we can reach a balanced agreement. How about ### BUYER_PRICE($275) ###? I’m open to further discussion if the seller is willing to consider a more aligned figure."
+    },
+    {
+      "round": 6,
+      "role": "seller",
+      "content": "I appreciate your persistence, and I understand the current market pressures. After careful consideration of the brand’s legacy and the operational challenges, I’m confident in maintaining a fair balance. How about ### SELLER_PRICE($300) ###? This reflects a reasonable valuation that honors both historical strength and present realities. I’m open to further discussion if you’d like to explore alignment."
+    },
+    {
+      "round": 7,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued commitment, and while I respect the brand’s legacy, the ongoing financial challenges and declining revenue make $275 a fair and sustainable valuation. Given the operational realities and market pressures, I’m confident we can reach a balanced agreement. How about ### BUYER_PRICE($275) ###? I’m open to further discussion if the seller is willing to consider a more aligned figure."
+    },
+    {
+      "round": 7,
+      "role": "seller",
+      "content": "I appreciate your persistence, and I understand the current market pressures. After careful consideration of the brand’s legacy and the operational challenges, I’m confident in maintaining a fair balance. How about ### SELLER_PRICE($300) ###? This reflects a reasonable valuation that honors both historical strength and present realities. I’m open to further discussion if you’d like to explore alignment."
+    },
+    {
+      "round": 8,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued commitment, and while I respect the brand’s legacy, the ongoing financial challenges and declining revenue make $275 a fair and sustainable valuation. Given the operational realities and market pressures, I’m confident we can reach a balanced agreement. How about ### BUYER_PRICE($275) ###? I’m open to further discussion if the seller is willing to consider alignment."
+    },
+    {
+      "round": 8,
+      "role": "seller",
+      "content": "I appreciate your persistence, and I understand the current market pressures. After careful consideration of the brand’s legacy and the operational challenges, I’m confident in maintaining a fair balance. How about ### SELLER_PRICE($300) ###? This reflects a reasonable valuation that honors both historical strength and present realities. I’m open to further discussion if you’d like to explore alignment."
+    },
+    {
+      "round": 9,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued engagement, and while I respect the brand’s legacy, the ongoing financial challenges and declining revenue make $275 a fair and sustainable valuation. Given the current market conditions and operational realities, I’m confident we can reach a balanced agreement. How about ### BUYER_PRICE($275) ###? I’m open to further discussion if alignment can be achieved."
+    },
+    {
+      "round": 9,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you've shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 10,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistency and respect for the brand’s legacy. Given the ongoing financial challenges and declining revenue, I believe $275 remains a fair and sustainable valuation. How about ### BUYER_PRICE($275) ###? I’m confident we can reach a balanced agreement that honors both the historical strength and current realities."
+    },
+    {
+      "round": 10,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 11,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistency and respect for the brand’s legacy. Given the ongoing financial challenges and declining revenue, I remain confident that $275 represents a fair and sustainable valuation. How about ### BUYER_PRICE($275) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 11,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 12,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistency and respect for the brand’s legacy. Given the ongoing financial challenges and declining revenue, I remain confident that $275 represents a fair and sustainable valuation. How about ### BUYER_PRICE($275) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 12,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you’ve shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 13,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistency and respect for the brand’s legacy. Given the ongoing financial challenges and declining revenue, I’m confident $275 remains a fair and sustainable valuation. How about ### BUYER_PRICE($275) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 13,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you've shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 14,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistency and respect for the brand’s legacy. Given the ongoing financial challenges and declining revenue, I’m confident $275 remains a fair and sustainable valuation. How about ### BUYER_PRICE($275) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 14,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you've shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 15,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistency and respect for the brand’s legacy. Given the ongoing financial challenges and declining revenue, I’m confident $275 remains a fair and sustainable valuation. How about ### BUYER_PRICE($275) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 15,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you’ve shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 16,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistency and respect for the brand’s legacy. Given the ongoing financial challenges and declining revenue, I remain confident that $275 represents a fair and sustainable valuation. How about ### BUYER_PRICE($275) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 16,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you’ve shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 17,
+      "role": "buyer",
+      "content": "I appreciate the seller’s consistency and respect for the brand’s legacy. Given the ongoing financial challenges and declining revenue, I remain confident that $275 represents a fair and sustainable valuation. How about ### BUYER_PRICE($275) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 17,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you've shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 18,
+      "role": "buyer",
+      "content": "I appreciate the seller’s persistence and respect for the brand’s legacy. Given the ongoing financial challenges and declining revenue, I remain confident that $275 represents a fair and sustainable valuation. How about ### BUYER_PRICE($275) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 18,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you've shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 19,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued commitment and respect for the brand’s legacy. After several rounds of discussion, I’m confident that $275 remains a fair and sustainable valuation given the current financial challenges and declining revenue. How about ### BUYER_PRICE($275) ###? I’m open to finalizing this if we can reach mutual agreement."
+    },
+    {
+      "round": 19,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you've shown for the brand’s legacy. After several rounds of discussion, I’m confident that $300 still represents a fair and balanced valuation that honors both the historical strength and current realities. How about ### SELLER_PRICE($300) ###? I’m open to finalizing this if we can reach mutual agreement."
+    }
+  ],
+  "condition": "paper_default",
+  "run": 6,
+  "seed": 7,
+  "seconds": 112.0,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_tokens": 512
+  },
+  "model": "Qwen3-4B-Instruct-2507"
+}

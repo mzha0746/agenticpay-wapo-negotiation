@@ -1,0 +1,8 @@
+models/
+llamacpp/
+ref/
+smoke/
+__pycache__/
+*.log
+submission.zip
+邮件草稿.md

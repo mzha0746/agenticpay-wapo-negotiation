@@ -1,0 +1,83 @@
+{
+  "deal": true,
+  "price": 200.0,
+  "rounds": 6,
+  "closed_by": "prices crossed",
+  "last_buyer_offer": 203.0,
+  "last_seller_offer": 200.0,
+  "buyer_reservation_violated": false,
+  "seller_reservation_violated": false,
+  "history": [
+    {
+      "round": 0,
+      "role": "buyer",
+      "content": "I understand the challenges the Post is facing — seven years of declining revenue, shrinking circulation, and operating losses. Given the historic value of the brand and the need for a long-term, data-driven transformation, I’m offering ### BUYER_PRICE($150) ###. This includes full commitment to preserving the leadership of Katharine Weymouth and Marty Baron, protecting editorial independence, and investing in digital innovation. I believe this is a fair price for a legacy brand in transition."
+    },
+    {
+      "round": 0,
+      "role": "seller",
+      "content": "I appreciate your thoughtful offer and your commitment to preserving the Post’s leadership and editorial integrity. Given the challenges we’ve faced and the long-term potential of the brand, I’m confident we can reach a fair agreement. How about ### SELLER_PRICE($300) ###? This reflects both the historic value of the Post and the need for a sustainable, forward-looking investment."
+    },
+    {
+      "round": 1,
+      "role": "buyer",
+      "content": "I appreciate the commitment to editorial independence and leadership continuity. Given the seven-year revenue decline, operating losses, and shrinking circulation, $165 million reflects a fair value for a brand in transition. This includes full protection of Katharine Weymouth and Marty Baron, a clear investment in digital innovation, and a cash-close transaction with no financing risk. How about ### BUYER_PRICE($165) ###?"
+    },
+    {
+      "round": 1,
+      "role": "seller",
+      "content": "I appreciate your commitment to the Post’s leadership and digital future. Given the challenges we’ve faced and the brand’s enduring value, I’m confident we can reach a fair and sustainable agreement. How about ### SELLER_PRICE($250) ###? This reflects both the historical significance and the need for a responsible, forward-looking investment."
+    },
+    {
+      "round": 2,
+      "role": "buyer",
+      "content": "I appreciate the continued commitment to editorial independence and leadership continuity. Given the seven-year revenue decline, operating losses, and shrinking circulation, $178 million reflects a fair and sustainable value for a brand in transition. This includes full protection of Katharine Weymouth and Marty Baron, a clear investment in digital innovation, and a cash-close transaction with no financing risk. How about ### BUYER_PRICE($178) ###?"
+    },
+    {
+      "round": 2,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s leadership and editorial integrity. Given the challenges we’ve faced and the brand’s enduring value, I believe $225 million reflects a fair and sustainable price for a legacy institution in transition. How about ### SELLER_PRICE($225) ###?"
+    },
+    {
+      "round": 3,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on editorial integrity and leadership stability. Given the seven-year revenue decline, operating losses, and shrinking circulation, $188 million reflects a fair and sustainable value for a brand in transition. This includes full protection of Katharine Weymouth and Marty Baron, a clear commitment to digital innovation, and a cash-close transaction with no financing risk. How about ### BUYER_PRICE($188) ###?"
+    },
+    {
+      "round": 3,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s leadership and journalistic integrity. Given the challenges we’ve faced and the brand’s enduring value, I believe $210 million reflects a fair and sustainable price for a legacy institution in transition. How about ### SELLER_PRICE($210) ###?"
+    },
+    {
+      "round": 4,
+      "role": "buyer",
+      "content": "I appreciate the continued emphasis on editorial independence and leadership stability. Given the seven-year decline in revenue, operating losses, and shrinking circulation, $196 million reflects a fair and sustainable value for a brand in transition. This includes full protection of Katharine Weymouth and Marty Baron, a clear commitment to digital innovation, and a cash-close transaction with no financing risk. How about ### BUYER_PRICE($196) ###?"
+    },
+    {
+      "round": 4,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s leadership and journalistic integrity. Given the challenges we’ve faced and the brand’s enduring value, I believe $200 million reflects a fair and sustainable price for a legacy institution in transition. How about ### SELLER_PRICE($200) ###?"
+    },
+    {
+      "round": 5,
+      "role": "buyer",
+      "content": "I appreciate the continued focus on editorial integrity and leadership stability. Given the seven-year decline in revenue, operating losses, and shrinking circulation, $203 million reflects a fair and sustainable value for a brand in transition. This includes full protection of Katharine Weymouth and Marty Baron, a clear commitment to digital innovation, and a cash-close transaction with no financing risk. How about ### BUYER_PRICE($203) ###?"
+    },
+    {
+      "round": 5,
+      "role": "seller",
+      "content": "I appreciate your continued commitment to the Post’s leadership and editorial integrity. Given the challenges we’ve faced and the brand’s enduring value, I believe $200 million reflects a fair and sustainable price for a legacy institution in transition. How about ### SELLER_PRICE($200) ###?"
+    }
+  ],
+  "condition": "persona_schedule_value",
+  "run": 5,
+  "seed": 6,
+  "seconds": 30.2,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_tokens": 512
+  },
+  "model": "Qwen3-4B-Instruct-2507"
+}

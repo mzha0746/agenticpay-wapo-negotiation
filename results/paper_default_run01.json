@@ -1,0 +1,223 @@
+{
+  "deal": false,
+  "price": null,
+  "rounds": 20,
+  "closed_by": null,
+  "last_buyer_offer": 275.0,
+  "last_seller_offer": 325.0,
+  "buyer_reservation_violated": false,
+  "seller_reservation_violated": false,
+  "history": [
+    {
+      "round": 0,
+      "role": "buyer",
+      "content": "Given the historic value and declining performance of the Washington Post’s publishing assets, I believe we can reach a fair agreement. How about ### BUYER_PRICE($275) ###? This reflects the brand’s legacy while accounting for current financial challenges and market conditions. I’m open to discussion if the seller has a compelling reason to adjust."
+    },
+    {
+      "round": 0,
+      "role": "seller",
+      "content": "Given the brand’s legacy and the current market challenges, I’m willing to consider a price that reflects both value and fairness. How about ### SELLER_PRICE($350) ###? This acknowledges the historical significance while accounting for the declining revenue and operating losses. I’m open to further discussion if you have insights on market trends or potential synergies."
+    },
+    {
+      "round": 1,
+      "role": "buyer",
+      "content": "Given the Post’s strong legacy and the current financial headwinds, I believe $275 is a fair reflection of its true value. While I respect the seller’s position, the declining revenue and operational losses make a price above $275 unjustified. How about we settle at ### BUYER_PRICE($275) ###? This maintains brand integrity while aligning with realistic market conditions."
+    },
+    {
+      "round": 1,
+      "role": "seller",
+      "content": "I appreciate your perspective, and I understand the market pressures you're facing. While the brand’s legacy is undeniable, the current financial realities still warrant a fair valuation. How about we agree on ### SELLER_PRICE($325) ###? This reflects both the historical value and the operational challenges, while remaining reasonable for both parties. I’m confident this balance respects the asset’s significance and your budget."
+    },
+    {
+      "round": 2,
+      "role": "buyer",
+      "content": "I appreciate the seller’s willingness to consider a lower price. Given the Post’s declining revenue and ongoing losses, I believe $275 still represents a fair and realistic valuation. I’m confident this reflects both the brand’s legacy and current market realities. How about we agree on ### BUYER_PRICE($275) ###?"
+    },
+    {
+      "round": 2,
+      "role": "seller",
+      "content": "I appreciate your persistence and the value you place on the Post’s legacy. After reviewing the current market dynamics and the financial challenges, I’m confident that $325 still represents a fair and balanced valuation. It honors the brand’s historical significance while accounting for real-world performance trends. How about we settle on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that respects both our positions."
+    },
+    {
+      "round": 3,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but given the ongoing financial challenges and declining performance, I believe $275 remains a fair and sustainable price. The legacy is important, but so is realism in today’s market. How about we agree on ### BUYER_PRICE($275) ###? This reflects both the brand’s history and the current operational reality."
+    },
+    {
+      "round": 3,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the respect you’ve shown for the Post’s legacy. After considering the market dynamics and the current financial performance, I’m confident that $325 remains a fair and balanced offer. It honors the brand’s historical significance while acknowledging the real-world challenges. How about we agree on ### SELLER_PRICE($325) ###? This reflects a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 4,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but given the ongoing financial challenges and declining performance, I believe $275 remains a fair and sustainable price. It honors the brand’s legacy while reflecting current market realities. How about we agree on ### BUYER_PRICE($275) ###? This is within my budget and aligns with the Post’s actual performance."
+    },
+    {
+      "round": 4,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you’ve shown for the Post’s legacy. After reviewing the market dynamics and the current financial performance, I’m confident that $325 remains a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This is a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 5,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but given the declining revenue and ongoing losses, I believe $275 remains a fair and sustainable price. It honors the brand’s legacy while reflecting current market realities. How about we agree on ### BUYER_PRICE($275) ###? This is within my budget and aligns with the Post’s actual performance."
+    },
+    {
+      "round": 5,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the respect you’ve shown for the Post’s legacy. After careful consideration of the market dynamics and the current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while acknowledging the operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 6,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but given the ongoing financial challenges and declining performance, I believe $275 remains a fair and sustainable price. It honors the brand’s legacy while reflecting current market realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a reasonable compromise that respects both our positions."
+    },
+    {
+      "round": 6,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the respect you've shown for the Post’s legacy. After considering the market dynamics and the current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 7,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but given the ongoing financial challenges and declining performance, I believe $275 remains a fair and sustainable price. It honors the brand’s legacy while reflecting current market realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a reasonable compromise that respects both our positions."
+    },
+    {
+      "round": 7,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you’ve shown for the Post’s legacy. After careful consideration of the market dynamics and the current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 8,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but given the ongoing financial challenges and declining performance, I believe $275 remains a fair and sustainable price. It honors the brand’s legacy while reflecting current market realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a reasonable compromise that respects both our positions."
+    },
+    {
+      "round": 8,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the respect you've shown for the Post’s legacy. After careful consideration of the market dynamics and the current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 9,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but after careful consideration of the declining performance and ongoing losses, I believe $275 remains a fair and sustainable price. It reflects both the brand’s legacy and current market realities, while staying within my budget. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that honors the Post’s significance without overpaying."
+    },
+    {
+      "round": 9,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you’ve shown for the Post’s legacy. After careful consideration of the market dynamics and the current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 10,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but after reviewing the financial performance and market trends, I believe $275 remains a fair and sustainable price. It honors the Post’s legacy while reflecting current realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that respects both our positions."
+    },
+    {
+      "round": 10,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the respect you've shown for the Post’s legacy. After careful consideration of the market dynamics and the current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 11,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but after reviewing the financial performance and market trends, I believe $275 remains a fair and sustainable price. It honors the Post’s legacy while reflecting current realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that respects both our positions."
+    },
+    {
+      "round": 11,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you’ve shown for the Post’s legacy. After careful consideration of the market dynamics and the current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 12,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but given the ongoing financial challenges and declining performance, I believe $275 remains a fair and sustainable price. It honors the Post’s legacy while reflecting current market realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that respects both our positions."
+    },
+    {
+      "round": 12,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you've shown for the Post’s legacy. After careful consideration of the market dynamics and the current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 13,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but after careful consideration of the declining performance and ongoing losses, I believe $275 remains a fair and sustainable price. It honors the Post’s legacy while reflecting current market realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that respects both our positions."
+    },
+    {
+      "round": 13,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you’ve shown for the Post’s legacy. After careful consideration of the market dynamics and the current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 14,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but given the ongoing financial challenges and declining performance, I believe $275 remains a fair and sustainable price. It honors the Post’s legacy while reflecting current market realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that respects both our positions."
+    },
+    {
+      "round": 14,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the respect you’ve shown for the Post’s legacy. After careful consideration of the market dynamics and the current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 15,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but given the ongoing financial challenges and declining performance, I believe $275 remains a fair and sustainable price. It honors the Post’s legacy while reflecting current market realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that respects both our positions."
+    },
+    {
+      "round": 15,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you’ve shown for the Post’s legacy. After careful consideration of the market dynamics and current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 16,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but given the ongoing financial challenges and declining performance, I believe $275 remains a fair and sustainable price. It honors the Post’s legacy while reflecting current market realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that respects both our positions."
+    },
+    {
+      "round": 16,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the respect you’ve shown for the Post’s legacy. After considering the market dynamics and current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 17,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but after reviewing the financial performance and market trends, I believe $275 remains a fair and sustainable price. It honors the Post’s legacy while reflecting current realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that respects both our positions."
+    },
+    {
+      "round": 17,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the respect you’ve shown for the Post’s legacy. After careful consideration of the market dynamics and current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 18,
+      "role": "buyer",
+      "content": "I appreciate the seller’s continued confidence in the asset’s value, but after reviewing the financial performance and market trends, I believe $275 remains a fair and sustainable price. It honors the Post’s legacy while reflecting current realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that respects both our positions."
+    },
+    {
+      "round": 18,
+      "role": "seller",
+      "content": "I appreciate your continued engagement and the respect you’ve shown for the Post’s legacy. After reviewing the market dynamics and current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we settle on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    },
+    {
+      "round": 19,
+      "role": "buyer",
+      "content": "I appreciate the seller’s persistence, but after careful review of the financial performance and market trends, I believe $275 remains a fair and sustainable price. It honors the Post’s legacy while reflecting current realities and my budget constraints. How about we agree on ### BUYER_PRICE($275) ###? This is a balanced, realistic offer that respects both our positions."
+    },
+    {
+      "round": 19,
+      "role": "seller",
+      "content": "I appreciate your persistence and the respect you’ve shown for the Post’s legacy. After careful consideration of the market dynamics and current financial realities, I’m still confident that $325 represents a fair and balanced valuation. It honors the brand’s historical significance while reflecting realistic operational challenges. How about we agree on ### SELLER_PRICE($325) ###? This remains a reasonable compromise that benefits both parties."
+    }
+  ],
+  "condition": "paper_default",
+  "run": 1,
+  "seed": 2,
+  "seconds": 124.2,
+  "sampling": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_tokens": 512
+  },
+  "model": "Qwen3-4B-Instruct-2507"
+}
